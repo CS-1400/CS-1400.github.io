@@ -6,7 +6,7 @@ description: "Home"
 permalink: /CS1030-with-Ruiz
 ---
 ```Python
-print("Home")
+print("Data Types")
 ```
 home
 menu
