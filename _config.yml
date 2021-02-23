@@ -11,18 +11,24 @@ aux_links:
 aux_links_new_tab: true
 
 # pages included in page navigation and search
-collections:
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
-CS-1030-with-Ruiz:
-  docs:
-    name: Pages
-    nav_exclue: false
-    search_exclude: false
+
 
 # Footer on every page
 back_to_top: true
 back_to_top_text: "Back to top"
 footer_content: "Copyright &copy; 2021 Bianca Ruiz. Distributed by an <a href=\"https://github.com/CS-1030/CS-1030.github.io/tree/master/LICENSE.txt\">MIT license.</a>"
 
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+  # ignore:
+  #   envs: all
