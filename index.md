@@ -30,7 +30,7 @@ On the navigation menu to the left, you'll find programming topics organized int
 4. 
 
 
-## Copyright
+### Copyright
 
 CS-1030 with Ruiz is &copy; {{ "now" | date: "%Y" }} by Bianca Ruiz.
 
