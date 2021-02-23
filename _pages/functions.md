@@ -23,6 +23,9 @@ Below is a table of functions we'll learn and use in CS-1030. For a full list of
 | ```str()``` 	| Converts the argument to a string 	| Variable or literal value	| str |
 
 ## Examples
+
+<div class="code-example" markdown="1">
+
 ```Python
 def main():
 
@@ -32,3 +35,5 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+
+</div>
