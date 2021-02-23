@@ -9,3 +9,4 @@ permalink: /CS1030-with-Ruiz
 print("Home")
 ```
 home
+menu
