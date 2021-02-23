@@ -6,9 +6,7 @@ title: Functions
 # Functions
 
 ## Definition
-A function is a prewritten block of code with a name. When we call it's name, all of its code is executed.
-
-Optional features:
+A function is a prewritten block of code with a name. We call it by name to execute it. Functions optionally contain:
   - **arguments**: the function's input; data given to the function enclosed within the parenthesis.
   - **return**: the function's output; data passed back to the line of code that called it.
 
