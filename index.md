@@ -17,11 +17,11 @@ Welcome students!
 
 ### About
 
-sdfsdfsdf
+I created this site as a quick programming reference for my students as they complete my coursework. It is not an exhaustive Python tutorial, nor is it a replacement for our approved textbook.
 
 ### Navigation
 
-On the navigation menu to the left, you'll find sections organized by programming topic. You can also use the search bar on the top navigation menu.
+On the navigation menu to the left, you'll find programming topics organized into sections. You can also use the search bar on the top navigation menu.
 
 ### Student Links
 1. [Python Tutor](): An excellent visual debugger that lets you step through your program one line at a time. You can see exactly what is happening in memory, allowing you quickly identify and fix logic errors. 
