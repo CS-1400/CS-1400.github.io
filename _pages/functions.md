@@ -4,6 +4,14 @@ title: Functions
 ---
 
 # Functions
+{: .no_toc }
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 ## Definition
 A function is a prewritten block of code with a name. We call it by name to execute it. Functions optionally contain:
