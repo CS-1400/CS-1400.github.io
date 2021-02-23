@@ -8,49 +8,32 @@ description: "Home"
 # CS-1030 with Ruiz
 {: .fs-9 }
 
-I created this website as a quick reference (cheat sheet) covering the programming techniques we'll learn and use in class.
+Welcome students!
 {: .fs-6 .fw-300 }
 
-Use the left menu to navigate the sections of the website, or type in the search bar above.
-
 ---
 
-## f
+## Getting Started
 
-### f
+### About
 
-f
+sdfsdfsdf
 
-### f
+### Navigation
 
-f
+On the navigation menu to the left, you'll find sections organized by programming topic. You can also use the search bar on the top navigation menu.
 
-### f
+### Student Links
+1. [Python Tutor](): An excellent visual debugger that lets you step through your program one line at a time. You can see exactly what is happening in memory, allowing you quickly identify and fix logic errors. 
+2. [Python Docs](): The definitive reference on anything and everything Python.
+3. [Repl.it](https://repl.it/~): An online, fully featured IDE that allows you to program anywhere you have internet access, even if you can't install software on your machine. 
+4. 
 
-f
 
-### f
+## Copyright
 
-f
-
----
-
-## About
-
-f
+CS-1030 with Ruiz is &copy; {{ "now" | date: "%Y" }} by Bianca Ruiz.
 
 ### License
 
 CS-1030 with Ruiz is distributed by an [MIT license](https://github.com/CS-1030/CS-1030.github.io/tree/master/LICENSE.txt).
-
-### f
-
-f
-
-#### f
-
-f
-
-### Code of Conduct
-
-f
