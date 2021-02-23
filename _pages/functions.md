@@ -17,3 +17,14 @@ Below is a table of functions we learn in CS-1030. For a full list of built-in f
 |-	|-	|-	|- |
 | ```print()``` 	| Displays strings to the console 	| String 	| N-A |
 | ```input()``` 	| Prompts the user to enter text 	| String (user prompt)	| String |
+
+## Examples
+```Python
+def main():
+
+    name = input('Hi! What's your name? ')
+    print('Nice to meet you, ' + name)
+
+if __name__ == '__main__':
+    main()
+```
