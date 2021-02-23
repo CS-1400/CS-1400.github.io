@@ -15,5 +15,5 @@ Below is a table of functions we learn in CS-1030. For a full list of built-in f
 
 | Function 	| Description 	| Argument(s) 	| Return  |
 |-	|-	|-	|- |
-| ```print()``` 	| Displays strings to the console 	| Any string 	| N-A |
-| ```input()``` 	| Prompts the user to enter text 	| a user prompt: String (opt)	| String |
+| ```print()``` 	| Displays strings to the console 	| String 	| N-A |
+| ```input()``` 	| Prompts the user to enter text 	| String (user prompt)	| String |
