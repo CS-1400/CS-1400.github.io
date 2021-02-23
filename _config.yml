@@ -16,6 +16,11 @@ collections:
   docs:
     permalink: "/:collection/:path/"
     output: true
+CS-1030-with-Ruiz:
+  docs:
+    name: Pages
+    nav_exclue: false
+    search_exclude: false
 
 # Footer on every page
 back_to_top: true
