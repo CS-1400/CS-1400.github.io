@@ -2,8 +2,11 @@ remote_theme: pmarsceill/just-the-docs
 title: CS-1030 with Ruiz
 description: Python3 references
 logo: 'assets/images/ruiz.jpeg'
+
+# Upper right navigation links
 aux_links:
   "Python Language Reference": "https://docs.python.org/3/reference/index.html"
   "Python Tutor (Visualizer)": "http://www.pythontutor.com/visualize.html#mode=edit"
+aux_links_new_tab: true
   
   
