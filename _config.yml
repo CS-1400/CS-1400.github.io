@@ -4,12 +4,18 @@ description: Python3 references
 logo: 'assets/images/ruiz.jpeg'
 baseurl: "/CS-1030-with-Ruiz"
 
-# Upper right navigation links
+# Upper nav links
 aux_links:
   "Python Language Reference": "https://docs.python.org/3/reference/index.html"
   "Python Tutor (Visualizer)": "http://www.pythontutor.com/visualize.html#mode=edit"
   "Repl.it Online IDE": "https://repl.it/"
 aux_links_new_tab: true
+
+# pages included in page navigation and search
+collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
 
 # Footer on every page
 back_to_top: true
