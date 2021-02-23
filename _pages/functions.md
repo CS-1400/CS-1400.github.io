@@ -22,7 +22,7 @@ Below is a table of functions we'll learn and use in CS-1030. For a full list of
 | ```float()``` 	| Converts the argument to a floating point number 	| Variable or literal value	| float |
 | ```str()``` 	| Converts the argument to a string 	| Variable or literal value	| str |
 
-## Examples
+## Example
 
 <div class="code-example" markdown="1">
 
