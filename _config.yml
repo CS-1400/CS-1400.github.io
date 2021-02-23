@@ -12,7 +12,8 @@ aux_links:
 aux_links_new_tab: true
 
 # pages included in page navigation and search
-
+include:
+  - _pages
 
 # Footer on every page
 back_to_top: true
