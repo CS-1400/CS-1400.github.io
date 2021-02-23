@@ -2,6 +2,7 @@ remote_theme: pmarsceill/just-the-docs
 title: CS-1030 with Ruiz
 description: Python3 references
 logo: 'assets/images/ruiz.jpeg'
+baseurl: "/CS-1030-with-Ruiz"
 
 # Upper right navigation links
 aux_links:
