@@ -2,10 +2,10 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Meow."
+description: "Home"
 permalink: /
 ---
 ```Python
-print("Learn to Code")
+print("Home")
 ```
-this takes a while
+home
