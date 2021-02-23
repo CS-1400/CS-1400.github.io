@@ -29,7 +29,7 @@ Below is a table of functions we'll learn and use in CS-1030. For a full list of
 ```Python
 def main():
 
-    name = input('Hi! What\'s your name? ')
+    name = input('Hi! What's your name? ')
     print('Nice to meet you, ' + name)
 
 if __name__ == '__main__':
