@@ -34,7 +34,7 @@ if __name__ == '__main__':
 ```
 
 </div>
-[Run on Repl.it](https://repl.it/@bianca_ruiz/built-in-functions){: .btn }
+[Run on Repl.it](https://repl.it/@bianca_ruiz/built-in-functions#main.py){: .btn }
 
 
 
