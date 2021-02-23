@@ -18,14 +18,13 @@ I created this site as a quick programming reference for my students as they com
 - In the left menu, you'll find programming topics organized into sections. 
 - In the top navigation bar, you can use the search bar to find specific information.
 
-### Student Links
+### Python Links
 1. [Python Tutor](http://www.pythontutor.com/visualize.html#mode=edit): An excellent visual debugger that lets you step through your program one line at a time. You can see exactly what is happening in memory, allowing you quickly identify and fix logic errors. 
 2. [Python Docs](https://docs.python.org/3/reference/index.html): The definitive reference on anything and everything Python.
 3. [Repl.it](https://repl.it/~): An online, fully featured IDE that allows you to program anywhere you have internet access, even if you can't install software on your machine. 
-4. [GitHub](https://github.com/):
-5. [UVU Canvas](https://uvu.instructure.com/)
+4. [SoloLearn Tutorials](https://www.sololearn.com/learning/1073): A free, high-quality, and interactive tutorial I often recommend to students.
+5. [GitHub](https://github.com/):
 6. [ZyBooks](https://learn.zybooks.com/library): Our official course textbook.
-
 
 ### Copyright
 CS-1030 with Ruiz is &copy; {{ "now" | date: "%Y" }} by Bianca Ruiz.
