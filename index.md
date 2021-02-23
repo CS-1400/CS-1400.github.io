@@ -19,8 +19,8 @@ I created this site as a quick programming reference for my students as they com
 - In the top navigation bar, you can use the search bar to find specific information.
 
 ### Student Links
-1. [Python Tutor](): An excellent visual debugger that lets you step through your program one line at a time. You can see exactly what is happening in memory, allowing you quickly identify and fix logic errors. 
-2. [Python Docs](): The definitive reference on anything and everything Python.
+1. [Python Tutor](http://www.pythontutor.com/visualize.html#mode=edit): An excellent visual debugger that lets you step through your program one line at a time. You can see exactly what is happening in memory, allowing you quickly identify and fix logic errors. 
+2. [Python Docs](https://docs.python.org/3/reference/index.html): The definitive reference on anything and everything Python.
 3. [Repl.it](https://repl.it/~): An online, fully featured IDE that allows you to program anywhere you have internet access, even if you can't install software on your machine. 
 4. [GitHub](https://github.com/):
 5. [UVU Canvas](https://uvu.instructure.com/)
