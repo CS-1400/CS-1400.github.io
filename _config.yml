@@ -7,7 +7,7 @@ permalink: /:title/
 
 # Upper nav links
 aux_links:
-  "Python Docs": "https://docs.python.org/3/reference/index.html"
+  "Python Docs": "https://docs.python.org/3/"
 aux_links_new_tab: true
 
 # pages included in page navigation and search
