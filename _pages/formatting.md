@@ -20,9 +20,7 @@ Formatted string literals (aka f-strings) are string literals that have an f at 
 
 ## Example
 
-<div class="code-example" markdown="1">
-
-```Python
+{% highlight python %}
 def main():
 
     name = 'Bianca'
@@ -35,9 +33,8 @@ def main():
 
 if __name__ == '__main__':
     main()
-```
+{% endhighlight %}
 
-</div>
 [Run on Repl.it](https://repl.it/@bianca_ruiz/f-strings#main.py){: .btn }
 
 
