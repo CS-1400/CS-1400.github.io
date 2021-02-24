@@ -41,10 +41,10 @@ Below is a table of data types we'll learn and use in CS-1030. For a full list o
 | Type 	| Principal Type 	| Mutability 	| Example  |
 |-	|-	|-	|- |
 | ```str``` 	| Sequence 	| Immutable 	| 'Ruiz' |
-| ```int``` 	| Numeric 	| String (user prompt)	| String |
-| ```float``` 	| Returns the data type of argument 	| Variable or literal value	| String (data type) |
-| ```bool``` 	| Converts the argument to an integer 	| Variable or literal value	| int |
-| ```list``` 	| Converts the argument to a floating point number 	| Variable or literal value	| float |
-| ```str()``` 	| Converts the argument to a string 	| Variable or literal value	| str |
-| ```help()``` 	| Interactive help in the console 	| function -or- type name	| (see description) |
+| ```int``` 	| Numeric 	| Immutable	| 5 |
+| ```float``` 	|  	| 	|  |
+| ```bool``` 	|  	| 	|  |
+| ```list``` 	|  	| 	|  |
+| ```str()``` 	|  	| 	|  |
+| ```help()``` 	|  	| 	|  |
 
