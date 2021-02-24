@@ -19,7 +19,7 @@ I created this site as a quick programming reference for my students as they com
 - In the top navigation bar, you can use the search bar to find specific information.
 
 ### Programming Feedback
-I have created and deployed two "code bots" that live in our assignment repositories. Each time you submit (commit) your solution file, They both scan your program for any possible errors. They will comment their observations in the **Pull** tab, under the **Feedback** conversation. I hope the instant feedback and clues they give will help everyone with the hardest part of programming, debugging.
+I have created and deployed two "code bots" that live in our assignment repositories. Each time you submit (commit) your solution file, They both scan your program for any possible errors. They will comment their observations in the **Pull Request** tab, under the **Feedback** conversation. I hope the instant feedback and clues they give will help everyone with the hardest part of programming, debugging.
 
 ### Python Links
 1. [Python Tutor](http://www.pythontutor.com/visualize.html#mode=edit): An excellent visual debugger that lets you step through your program one line at a time. You can see exactly what is happening in memory, allowing you quickly identify and fix logic errors. 
