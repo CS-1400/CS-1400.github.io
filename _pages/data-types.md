@@ -31,6 +31,11 @@ def main():
 if __name__ == '__main__':
     main()
 {% endhighlight %}
+- Console Output:
+{% highlight console %}
+my_float type:  <class 'float'>
+my_string type: <class 'str'>
+{% endhighlight %}
 
 [Run on Repl.it](https://repl.it/@bianca_ruiz/data-types#main.py){: .btn }
 
