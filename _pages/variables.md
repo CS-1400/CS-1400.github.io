@@ -27,7 +27,6 @@ Variable names **must** be to the left of the assignment operator; values **must
 - Can only contain alphabetic characters, numeric characters, or underscores.
 - Cannot be a reserved word:
 
-|        |          |          |        |
 |--------|----------|----------|--------|
 | None   | continue | global   | pass   |
 | True   | def      | if       | raise  |
