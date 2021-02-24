@@ -18,8 +18,6 @@ A specific type of data; defines the values it can represent and the actions tha
 
 ## Example
 
-#<div class="code-example" markdown="1">
-
 {% highlight python %}
 def main():
 
@@ -30,7 +28,6 @@ if __name__ == '__main__':
     main()
 {% endhighlight %}
 
-#</div>
 [Run on Repl.it](https://repl.it/@bianca_ruiz/data-types#main.py){: .btn }
 
 
