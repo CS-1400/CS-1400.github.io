@@ -52,6 +52,7 @@ Traceback (most recent call last):
     quantity = int(input('How many cookies do you want? '))   
 ValueError: invalid literal for int() with base 10: 'y'
 {% endhighlight %}
+[Run on Repl.it](https://repl.it/@bianca_ruiz/no-exception-handling#main.py){: .btn }
 
 ### Proper exception handling
 {% highlight python %}
@@ -78,4 +79,4 @@ Please enter a whole number
 How many cookies do you want? 
 {% endhighlight %}
 
-[Run on Repl.it](https://repl.it/@bianca_ruiz/#main.py){: .btn }
+[Run on Repl.it](https://repl.it/@bianca_ruiz/exception-handling#main.py){: .btn }
