@@ -22,8 +22,11 @@ A specific type of data; defines the values it can represent and the actions tha
 {% highlight python %}
 def main():
 
-  my_float = 6.2
-  my_string = 'Ruiz'
+    my_float = 6.2
+    my_string = 'Ruiz'
+
+    print(f'my_float type:\t{type(my_float)}')
+    print(f'my_string type:\t{type(my_string)}')
 
 if __name__ == '__main__':
     main()
