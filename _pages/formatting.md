@@ -20,34 +20,33 @@ Formatted string literals (aka f-strings) are string literals that have an f at 
 
 ## Example
 
+Python Code:
 {% highlight python %}
 def main():
 
-    name = 'Bianca'
+    name = 'bIaNcA'
     food = 'cookies'
     price = 4.5
     quantity = 3
 
-    print(f"{name}'s favorite food is {food}, at ${price:.2f} a pop.")
+    print(f"{name.capitalize()}'s favorite food is {food}, at ${price:.2f} a pop.")
     print(f"{quantity} {food} cost a total of ${(quantity * price):.2f}")
 
+    print(f"{name.upper():>15}") # field width = 15; right-justified
+    print(f"{name.lower():^15}") # field width = 15; centered
+    print(f"{name.swapcase():<15}") # field width = 15; left-justified
+    
 if __name__ == '__main__':
     main()
 {% endhighlight %}
 
+Console Output:
+{% highlight console %}
+Bianca's favorite food is cookies, at $4.50 a pop.
+3 cookies cost a total of $13.50
+         BIANCA
+    bianca     
+BiAnCa
+{% endhighlight %}
+
 [Run on Repl.it](https://repl.it/@bianca_ruiz/f-strings#main.py){: .btn }
-
-
-
-## Built in functions
-Below is a table of functions we'll learn and use in CS-1030. For a full list of built-in functions, refer to the [Python Docs](https://docs.python.org/3/library/functions.html)
-
-| Function 	| Description 	| Argument(s) 	| Return  |
-|-	|-	|-	|- |
-| ```print()``` 	| Displays strings to the console 	| String 	| N-A |
-| ```input()``` 	| Prompts the user to enter text 	| String (user prompt)	| String |
-| ```type()``` 	| Returns the data type of argument 	| Variable or literal value	| String (data type) |
-| ```int()``` 	| Converts the argument to an integer 	| Variable or literal value	| int |
-| ```float()``` 	| Converts the argument to a floating point number 	| Variable or literal value	| float |
-| ```str()``` 	| Converts the argument to a string 	| Variable or literal value	| str |
-| ```help()``` 	| Interactive help in the console 	| function -or- type name	| (see description) |
