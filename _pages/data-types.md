@@ -18,9 +18,9 @@ A specific type of data; defines the values it can represent and the actions tha
 
 ## Example
 
-<div class="code-example" markdown="1">
+#<div class="code-example" markdown="1">
 
-```Python
+{% highlight python %}
 def main():
 
   my_float = 6.2
@@ -28,9 +28,9 @@ def main():
 
 if __name__ == '__main__':
     main()
-```
+{% endhighlight %}
 
-</div>
+#</div>
 [Run on Repl.it](https://repl.it/@bianca_ruiz/data-types#main.py){: .btn }
 
 
