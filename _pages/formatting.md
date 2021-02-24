@@ -32,8 +32,8 @@ def main():
     print(f"{name.capitalize()}'s favorite food is {food}, at ${price:.2f} a pop.")
     print(f"{quantity} {food} cost a total of ${(quantity * price):.2f}")
 
-    print(f"{name.upper():>15}") # field width = 15; right-justified
-    print(f"{name.lower():^15}") # field width = 15; centered
+    print(f"{name.upper():>15}")    # field width = 15; right-justified
+    print(f"{name.lower():^15}")    # field width = 15; centered
     print(f"{name.swapcase():<15}") # field width = 15; left-justified
     
 if __name__ == '__main__':
