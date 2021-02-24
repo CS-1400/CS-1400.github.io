@@ -9,4 +9,8 @@
 ## Attributions
 - [just-the-docs](https://github.com/pmarsceill/just-the-docs) theme: [Patrick Marsceill](https://github.com/pmarsceill), GitHub Product Designer
 
+## Copyright
+CS-1400 with Ruiz is © 2021 by Bianca Ruiz.
 
+## License
+CS-1400 with Ruiz is distributed by an [MIT license]().
