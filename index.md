@@ -5,7 +5,7 @@ nav_order: 1
 description: "Home"
 ---
 
-# UVU CS-1030 with Ruiz
+# CS-1030 with Ruiz
 {: .fs-9 }
 
 Welcome students!
