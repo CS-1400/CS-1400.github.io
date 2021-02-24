@@ -10,7 +10,7 @@ description: "Home"
 
 Welcome students!
 {: .fs-6 .fw-300 }
-
+![](favicon.ico)
 ---
 I created this site as a quick programming reference for my students as they complete my programming assignments. It is not an exhaustive Python tutorial, nor is it a replacement for our approved textbook.
 
