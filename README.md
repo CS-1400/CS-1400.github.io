@@ -1,4 +1,5 @@
 # CS-1400 Reference Website
+[https://cs-1400.github.io/](https://cs-1400.github.io/)
 > I created this website as a reference for my students as they complete their programming assignments.
 
 ## Features
