@@ -45,6 +45,6 @@ Below is a table of data types we'll learn and use in CS-1030. For a full list o
 | ```float``` 	| Numeric 	| Immutable	| 8.9, 900.0 |
 | ```bool``` 	|  Comparison	| Immutable	| True, False |
 | ```list``` 	|  Sequence	| Mutable	| [1,2,3], ['and','or'] |
-| ```x``` 	|  	| 	|  |
+| ```tuple``` 	|  Sequence	| Immutable	| (1,2,3), ('and','or) |
 | ```x``` 	|  	| 	|  |
 
