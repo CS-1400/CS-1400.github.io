@@ -35,16 +35,16 @@ if __name__ == '__main__':
 
 
 
-## Built in functions
+## Built in types
 Below is a table of data types we'll learn and use in CS-1030. For a full list of data types, refer to the [Python Docs](https://docs.python.org/3/library/stdtypes.html)
 
 | Type 	| Principal Type 	| Mutability 	| Example  |
 |-	|-	|-	|- |
-| ```str``` 	| Sequence 	| Immutable 	| 'Ruiz' |
-| ```int``` 	| Numeric 	| Immutable	| 5 |
-| ```float``` 	|  	| 	|  |
-| ```bool``` 	|  	| 	|  |
-| ```list``` 	|  	| 	|  |
-| ```str()``` 	|  	| 	|  |
-| ```help()``` 	|  	| 	|  |
+| ```str``` 	| Sequence 	| Immutable 	| 'Ruiz', '15' |
+| ```int``` 	| Numeric 	| Immutable	| 5, 10000 |
+| ```float``` 	| Numeric 	| Immutable	| 8.9, 900.0 |
+| ```bool``` 	|  Comparison	| Immutable	| True, False |
+| ```list``` 	|  Sequence	| Mutable	| [1,2,3], ['and','or'] |
+| ```x``` 	|  	| 	|  |
+| ```x``` 	|  	| 	|  |
 
