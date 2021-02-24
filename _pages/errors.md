@@ -42,7 +42,7 @@ def main():
 if __name__ == '__main__':
     main()
 {% endhighlight %}
-Console output when user enters 'y' instead of a number:
+- Console output when user enters 'y' instead of a number:
 {% highlight console %}
 How many cookies do you want? y
 Traceback (most recent call last):
@@ -71,7 +71,7 @@ def main():
 if __name__ == '__main__':
     main()
 {% endhighlight %}
-Console output when user enters 'y' instead of a number:
+- Console output when user enters 'y' instead of a number:
 {% highlight console %}
 How many cookies do you want? y
 Please enter a whole number
