@@ -18,8 +18,8 @@ Variables are named areas of memory that we can use to store date. All variables
 
 ## Assignment Statements
 Variable names **must** be to the left of the assignment operator; values **must** be to the right:
-- :+1: ```flavor = 'chocolate chip'```
-- :-1: ```'chocolate chip' = flavor```
+- ```flavor = 'chocolate chip'```
+- ~~```'chocolate chip' = flavor```~~
 
 Python Code:
 {% highlight python %}
