@@ -13,6 +13,8 @@ aux_links_new_tab: true
 # pages included in page navigation and search
 include:
   - _pages
+exclude:
+  - README.md
 
 # Footer on every page
 back_to_top: true
