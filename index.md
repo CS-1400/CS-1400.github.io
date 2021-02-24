@@ -5,7 +5,7 @@ nav_order: 1
 description: "Home"
 ---
 
-# ![](favicon.ico) CS-1030 with Ruiz
+#  CS-1030 with Ruiz
 
 {: .fs-9 }
 
@@ -14,7 +14,7 @@ Welcome students!
 {: .fs-6 .fw-300 }
 
 ---
-I created this site as a quick programming reference for my students as they complete my programming assignments. It is not an exhaustive Python tutorial, nor is it a replacement for our approved textbook.
+![](favicon.ico) I created this site as a quick programming reference for my students as they complete my programming assignments. It is not an exhaustive Python tutorial, nor is it a replacement for our approved textbook.
 
 ### Navigation
 - In the main menu, you'll find programming topics organized into sections. 
