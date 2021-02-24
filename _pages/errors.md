@@ -19,14 +19,14 @@ There are three types of errors we encounter while programming: syntax, runtime,
 
 ## Syntax Erros
 Syntax errors are caused by not following the rules of the language. Examples: beginning a variable name with a number, forgetting to close parenthesis or quotes, or misspelling keywords. The editor will usually bring these to your attention by underlining them in red.
-- ```Print('Hello there!')``` (The *p* in print shouldn't be capitalized)
+- ```Print('Hello there!')``` (The *p* in print should not be capitalized)
 
 ## Runtime Errors
-Runtime Errors happen during program execution, and cause your program to crash. They are caused by asking the computer something it cannot do, such as division by zero or trying to access the 5th character of a four character string.
+Runtime Errors happen during program execution and cause your program to crash. They are caused by asking the computer something it cannot do, such as division by zero or trying to access the 5th character of a four character string.
 - ```print(5 / 0)```
 
 ## Logic Errors
-Logic errors occur when the program runs fine, there are no obvious errors, but the output is incorrect. This can be caused by incorrect algorithms, or mistyping an operator (ex: + instead of -).
+Logic errors occur when the program runs fine, but the output is incorrect. This can be caused by incorrect algorithms, or mistyping an operator (ex: + instead of -).
 - ```total = subtotal - tax```  (The subtraction operator should be an addition operator)
 
 ## Exception Handling
@@ -43,7 +43,15 @@ if __name__ == '__main__':
     main()
 {% endhighlight %}
 Console output when user enters 'y' instead of a number:
-
+{% highlight console %}
+How many cookies do you want? y
+Traceback (most recent call last):
+  File "main.py", line 7, in <module>
+    main()
+  File "main.py", line 3, in main
+    quantity = int(input('How many cookies do you want? '))   
+ValueError: invalid literal for int() with base 10: 'y'
+{% endhighlight %}
 
 ### Proper exception handling
 {% highlight python %}
@@ -63,6 +71,11 @@ if __name__ == '__main__':
     main()
 {% endhighlight %}
 Console output when user enters 'y' instead of a number:
+{% highlight console %}
+How many cookies do you want? y
+Please enter a whole number
 
+How many cookies do you want? 
+{% endhighlight %}
 
 [Run on Repl.it](https://repl.it/@bianca_ruiz/#main.py){: .btn }
