@@ -2,7 +2,7 @@
 layout: default
 title: Data Types
 ---
-# Functions
+# Data Types
 {: .no_toc }
 ## Table of contents
 {: .no_toc .text-delta }
@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
 
 
-## Built in types
+## Built-in Types
 Below is a table of data types we'll learn and use in CS-1030. For a full list of data types, refer to the [Python Docs](https://docs.python.org/3/library/stdtypes.html)
 
 | Type 	| Principal Type 	| Mutability 	| Example  |
