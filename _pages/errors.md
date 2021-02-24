@@ -27,17 +27,44 @@ Runtime Errors (called **exceptions**) happen during program execution, and caus
 
 ## Logic Errors
 Logic errors occur when the program runs fine, there are no obvious errors, but the output is incorrect. This can be caused by incorrect algorithms, or mistyping an operator (ex: + instead of -).
-- ```total = subtotal - tax``` (The subtraction operator should be an addition operator)
+- ```total = subtotal - tax```  (The subtraction operator should be an addition operator)
 
 ## Exception Handling
+It is always best practice to place error-prone code inside of try/except blocks. When an error occurs it will be handled gracefully, instead of crashing your program.
 
-Python Code:
+In the first program below, if the user enters a non-number the program will crash. But the second program incorporates exception handling, and will instead re-prompt the user for the correct data. 
+
+### No try/except blocks
 {% highlight python %}
 def main():
-
     
+    quantity = int(input('How many cookies do you want? '))   
+    print(f'Excellent! Here are your {quantity} cookies...')
+
 if __name__ == '__main__':
     main()
 {% endhighlight %}
+Console output when user enters 'y' instead of a number:
+
+
+### try/except Blocks
+{% highlight python %}
+def main():
+    
+    while True:
+        try:
+            quantity = int(input('How many cookies do you want? '))
+            break
+        except:
+            print('Please enter a whole number\n')
+            continue
+    
+    print(f'\nExcellent! Here are your {quantity} cookies...')
+
+if __name__ == '__main__':
+    main()
+{% endhighlight %}
+Console output when user enters 'y' instead of a number:
+
 
 [Run on Repl.it](https://repl.it/@bianca_ruiz/#main.py){: .btn }
