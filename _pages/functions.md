@@ -21,9 +21,7 @@ A function is a prewritten block of code with a name. We call it by name to exec
 
 ## Example
 
-<div class="code-example" markdown="1">
-
-```Python
+{% highlight python %}
 def main():
 
     name = input('Hi! What\'s your name? ')
@@ -31,9 +29,8 @@ def main():
 
 if __name__ == '__main__':
     main()
-```
+{% endhighlight %}
 
-</div>
 [Run on Repl.it](https://repl.it/@bianca_ruiz/built-in-functions#main.py){: .btn }
 
 
