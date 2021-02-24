@@ -29,7 +29,7 @@ def main():
     quantity = 3
 
     print(f"{name}'s favorite food is {food}, at ${price:.2f} a pop.")
-    print(f"{quantity} cookies cost a total of ${(quantity * price):.2f}")
+    print(f"{quantity} {food} cost a total of ${(quantity * price):.2f}")
 
 if __name__ == '__main__':
     main()
