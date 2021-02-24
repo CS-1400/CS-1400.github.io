@@ -19,7 +19,7 @@ I created this site as a quick programming reference for my students as they com
 - In the top navigation bar, you can use the search bar to find specific information.
 
 ### Programming Feedback
-> I have created and deployed two "code bots" that live in our assignment repositories in GitHub. Each time you submit (commit) your solution file, They both scan your program for any possible errors. They will comment their observations and suggestions in the **Pull Request** tab, under the **Feedback** conversation. I hope their instant feedback and clues help everyone with the hardest part of programming: debugging.
+I have created and deployed two "code bots" that live in our assignment repositories on GitHub. Each time you submit (commit) your program, They both scan it for any possible errors. They will comment their observations and suggestions in the **Pull Request** tab, under the **Feedback** conversation. I hope their instant feedback and clues help everyone of you with the hardest part of programming: debugging.
 
 ### Python Links
 1. [Python Docs](https://docs.python.org/3/reference/index.html): The definitive reference on anything and everything Python.
