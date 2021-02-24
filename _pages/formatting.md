@@ -15,8 +15,8 @@ title: Formatting
 
 ## Definition
 Formatted string literals (aka f-strings) are string literals that have an f at the beginning and curly braces containing expressions that will be replaced with their values. Use f-strings to format strings, ints, floats, etc.
-- [PEP 498](https://www.python.org/dev/peps/pep-0498/)
 - [Python Docs: Formatted String Literals](https://docs.python.org/3/reference/lexical_analysis.html#f-strings)
+- [Python Docs: Escape Sequences](https://docs.python.org/3/reference/lexical_analysis.html#literals)
 
 ## Example
 
@@ -50,3 +50,6 @@ BiAnCa
 {% endhighlight %}
 
 [Run on Repl.it](https://repl.it/@bianca_ruiz/f-strings#main.py){: .btn }
+
+## Escape Sequences
+Escape sequences allow you to include symbols and characters inside string literals using a backslash. As an example, You cannot use a contraction with an apostrophe inside a string enclosed in single quotes. you would "escape" that symbol with a backslash. ex: ```print('That\'s my favorite cookie flavor!')```.
