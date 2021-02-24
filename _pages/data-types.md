@@ -14,6 +14,7 @@ title: Data Types
 
 ## Definition
 A specific type of data; defines the values it can represent and the actions that can be performed on it.
+- [Python Docs: Built-in Types](https://docs.python.org/3/library/stdtypes.html)
 
 
 ## Example
@@ -33,7 +34,7 @@ if __name__ == '__main__':
 
 
 ## Built-in Types
-Below is a table of data types we'll learn and use in CS-1030. For a full list of data types, refer to the [Python Docs](https://docs.python.org/3/library/stdtypes.html)
+Below is a table of data types we'll learn and use most often in CS-1030.
 
 | Type 	| Principal Type 	| Mutability 	| Example  |
 |-	|-	|-	|- |
