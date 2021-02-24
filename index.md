@@ -6,10 +6,10 @@ description: "Home"
 ---
 
 # CS-1030 with Ruiz
-![](favicon.ico)
+
 {: .fs-9 }
 
-Welcome students!
+![](favicon.ico) Welcome students!
 {: .fs-6 .fw-300 }
 
 ---
