@@ -26,7 +26,7 @@ I have created and deployed two "code bots" that live in our assignment reposito
 2. [Python Docs](https://docs.python.org/3/reference/index.html): The definitive reference on anything and everything Python.
 3. [Repl.it](https://repl.it/~): An online, fully featured IDE that allows you to program anywhere you have internet access, even if you can't install software on your machine. 
 4. [SoloLearn Tutorials](https://www.sololearn.com/learning/1073): A free, high-quality, and interactive tutorial I often recommend to students.
-5. [GitHub](https://github.com/):
+5. [GitHub](https://github.com/): Nuff said.
 6. [ZyBooks](https://learn.zybooks.com/library): Our official course textbook.
 
 ### Copyright
