@@ -31,6 +31,7 @@ def main():
 if __name__ == '__main__':
     main()
 {% endhighlight %}
+
 - Console Output:
 {% highlight console %}
 my_float type:  <class 'float'>
