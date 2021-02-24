@@ -1,7 +1,7 @@
 remote_theme: pmarsceill/just-the-docs
-title: CS-1030 with Ruiz
+title: CS-1400 with Ruiz
 description: Python3 references
-url: "https://cs-1030.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cs-1400.github.io" 
 permalink: /:title/
 
 
