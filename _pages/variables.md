@@ -35,18 +35,6 @@ Variable names **must** be to the left of the assignment operator; values **must
 Python Code:
 {% highlight python %}
 def main():
-
-    name = 'bIaNcA'
-    food = 'cookies'
-    price = 4.5
-    quantity = 3
-
-    print(f"{name.capitalize()}'s favorite food is {food}, at ${price:.2f} a pop.")
-    print(f"{quantity} {food} cost a total of ${(quantity * price):.2f}")
-
-    print(f"{name.upper():>15}") # field width = 15; right-justified
-    print(f"{name.lower():^15}") # field width = 15; centered
-    print(f"{name.swapcase():<15}") # field width = 15; left-justified
     
 if __name__ == '__main__':
     main()
@@ -64,14 +52,4 @@ BiAnCa
 [Run on Repl.it](https://repl.it/@bianca_ruiz/f-strings#main.py){: .btn }
 
 ## Escape Sequences
-Escape sequences allow you to include symbols and characters inside string literals using a backslash. As an example, You cannot use a contraction with an apostrophe inside a string enclosed in single quotes. You would "escape" that symbol with a backslash: 
-{% highlight python %}
-print('That\'s my favorite cookie flavor!')
-{% endhighlight %}
-| Escape Sequence 	| Symbol 	|
-|-	|-	|
-| \\' 	| Single Quote 	|
-| \\" 	| Double Quote 	|
-| \t 	| Tab 	|
-| \n 	| Newline 	|
-| \\\ 	| Backslash 	|
+
