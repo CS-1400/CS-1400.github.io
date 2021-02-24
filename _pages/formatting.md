@@ -15,6 +15,7 @@ title: Formatting
 
 ## Definition
 Formatted string literals (aka f-strings) are string literals that have an f at the beginning and curly braces containing expressions that will be replaced with their values.
+
 See:
 - [PEP 498](https://www.python.org/dev/peps/pep-0498/)
 - [Python Docs: Formatted String Literals](https://docs.python.org/3/reference/lexical_analysis.html#f-strings)
