@@ -12,7 +12,7 @@ Welcome students!
 {: .fs-6 .fw-300 }
 
 ---
-I created this site as a quick programming reference for my students as they complete my coursework. It is not an exhaustive Python tutorial, nor is it a replacement for our approved textbook.
+I created this site as a quick programming reference for my students as they complete my programming assignments. It is not an exhaustive Python tutorial, nor is it a replacement for our approved textbook.
 
 ### Navigation
 - In the left menu, you'll find programming topics organized into sections. 
