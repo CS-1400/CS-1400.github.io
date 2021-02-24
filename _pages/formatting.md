@@ -41,7 +41,7 @@ if __name__ == '__main__':
 {% endhighlight %}
 
 Console Output:
-{% highlight console %}
+{% highlight text %}
 Bianca's favorite food is cookies, at $4.50 a pop.
 3 cookies cost a total of $13.50
          BIANCA
