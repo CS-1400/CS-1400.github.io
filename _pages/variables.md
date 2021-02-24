@@ -22,7 +22,7 @@ Assignment statements *bind* a value with a name. Variable names **must** be to 
 - ~~```'chocolate chip' = flavor```~~
 
 ## Naming Rules
-- [Python PEP8: Variable Names](https://www.python.org/dev/peps/pep-0008/#type-variable-names)
+- [Python PEP8: Variable Names](https://www.python.org/dev/peps/pep-0008/#function-and-variable-names)
 - No spaces.
 - First character **must** be either an alphabetic character or an underscore.
 - Can only contain alphabetic characters, numeric characters, or underscores.
