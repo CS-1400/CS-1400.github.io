@@ -15,8 +15,8 @@ Welcome students!
 I created this site as a quick programming reference for my students as they complete my programming assignments. It is not an exhaustive Python tutorial, nor is it a replacement for our approved textbook.
 
 ### Navigation
-- In the left menu, you'll find programming topics organized into sections. 
-- In the top navigation bar, you can use the search bar to find specific information.
+- In the main menu, you'll find programming topics organized into sections. 
+- In the top menu, you can use the search bar to find specific information.
 
 ### Programming Feedback
 I have created and deployed two "code bots" that live in our assignment repositories on GitHub. Each time you submit (commit) your program, They both scan it for any possible errors. They will comment their observations and suggestions in the **Pull Request** tab, under the **Feedback** conversation. I hope their instant feedback and clues help everyone of you with the hardest part of programming: debugging.
