@@ -27,12 +27,17 @@ Variable names **must** be to the left of the assignment operator; values **must
 - Can only contain alphabetic characters, numeric characters, or underscores.
 - Cannot be a reserved word:
 
-|-|-|-|-|-|-|-|
-| False | class | from | or | None | continue | global |
-| pass | True | def | if | raise | and | del |
-| import | return | as | elif | in | try | assert |
-| else | is | while | async | except | lambda | with |
-| await | finally | nonlocal | yield | break | for | not |
+|        |          |          |        |
+|--------|----------|----------|--------|
+| None   | continue | global   | pass   |
+| True   | def      | if       | raise  |
+| and    | del      | import   | return |
+| as     | elif     | in       | try    |
+| assert | else     | is       | while  |
+| async  | except   | lambda   | with   |
+| await  | finally  | nonlocal | yield  |
+| break  | for      | not      | or     |
+| False  | class    | from     |        |
 
 Python Code:
 {% highlight python %}
