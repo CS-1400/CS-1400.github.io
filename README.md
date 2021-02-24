@@ -1,5 +1,5 @@
 # Python3 Reference Website
-> I created this documentation website as a reference for my students as they complete their programming assignments.
+> I created this website as a reference for my students as they complete their programming assignments.
 
 ## Features
 - [Website](https://cs-1400.github.io/) automatically redeploys with every push to a page in the _pages directory.
