@@ -38,24 +38,26 @@ Variable names **must** be to the left of the assignment operator; values **must
 | break  | for      | not      | or     |
 | False  | class    | from     |        |
 
-Python Code:
+## Reassignment
+When a value is *bound* to a variable, it is not permanent. Python code is executed sequentially, and keeps no record of prior variable values:
+
 {% highlight python %}
 def main():
-    
+
+    # I buy 3 cookies at Crumbl:
+    cookies = 3
+    print('Three cookies: nom nom nom')
+    # I buy one more cookie:
+    cookies += 1
+    print('Fourth cookie: nom nom nom')
+    # I buy one last cookie:
+    cookies += 1
+    print('Fifth cookie: nom nom nom')
+    # The value of cookie is now 5:
+    print(f'I ate {cookies} cookies!!')
+
 if __name__ == '__main__':
     main()
 {% endhighlight %}
 
-Console Output:
-{% highlight text %}
-Bianca's favorite food is cookies, at $4.50 a pop.
-3 cookies cost a total of $13.50
-         BIANCA
-    bianca     
-BiAnCa
-{% endhighlight %}
-
-[Run on Repl.it](https://repl.it/@bianca_ruiz/f-strings#main.py){: .btn }
-
-## Escape Sequences
-
+[Run on Repl.it](https://repl.it/@bianca_ruiz/variables#main.py){: .btn }
