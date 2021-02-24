@@ -52,4 +52,12 @@ BiAnCa
 [Run on Repl.it](https://repl.it/@bianca_ruiz/f-strings#main.py){: .btn }
 
 ## Escape Sequences
-Escape sequences allow you to include symbols and characters inside string literals using a backslash. As an example, You cannot use a contraction with an apostrophe inside a string enclosed in single quotes. you would "escape" that symbol with a backslash. ex: ```print('That\'s my favorite cookie flavor!')```.
+>Escape sequences allow you to include symbols and characters inside string literals using a backslash. As an example, You cannot use a contraction with an apostrophe inside a string enclosed in single quotes. You would "escape" that symbol with a backslash. ex: ```print('That\'s my favorite cookie flavor!')```.
+>
+| Escape Sequence 	| Symbol 	|
+|-	|-	|
+| \\' 	| Single Quote 	|
+| \\" 	| Double Quote 	|
+| \t 	| Tab 	|
+| \n 	| Newline 	|
+| \\\ 	| Backslash 	|
