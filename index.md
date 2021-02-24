@@ -10,6 +10,7 @@ description: "Home"
 {: .fs-9 }
 
 ![](favicon.ico) Welcome students!
+
 {: .fs-6 .fw-300 }
 
 ---
