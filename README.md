@@ -14,4 +14,4 @@
 CS-1030 with Ruiz is © 2021 by Bianca Ruiz.
 
 ## License
-CS-1030 with Ruiz is distributed by an [MIT license]().
+CS-1030 with Ruiz is distributed by an [MIT license](https://github.com/CS-1030/CS-1030.github.io/blob/main/LICENSE.txt).
