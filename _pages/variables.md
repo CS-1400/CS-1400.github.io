@@ -21,6 +21,17 @@ Variable names **must** be to the left of the assignment operator; values **must
 - ```flavor = 'chocolate chip'```
 - ~~```'chocolate chip' = flavor```~~
 
+## Naming Rules
+- No spaces.
+- First character **must** be either an alphabetic character or an underscore.
+- Can only contain alphabetic characters, numeric characters, or underscores.
+- Cannot be a reserved word:
+| False | class | from | or | None | continue | global |
+| pass | True | def | if | raise | and | del |
+| import | return | as | elif | in | try | assert |
+| else | is | while | async | except | lambda | with |
+| await | finally | nonlocal | yield | break | for | not |
+
 Python Code:
 {% highlight python %}
 def main():
