@@ -14,7 +14,7 @@ title: Variables
 
 ## Definition
 Variables are named areas of memory that we can use to store date. All variables have three things: a name, a type, and a value.
-- [Python PEP8: Variable Names](https://www.python.org/dev/peps/pep-0008/#type-variable-names)
+
 
 ## Assignment Statements
 Variable names **must** be to the left of the assignment operator; values **must** be to the right:
@@ -22,6 +22,7 @@ Variable names **must** be to the left of the assignment operator; values **must
 - ~~```'chocolate chip' = flavor```~~
 
 ## Naming Rules
+- [Python PEP8: Variable Names](https://www.python.org/dev/peps/pep-0008/#type-variable-names)
 - No spaces.
 - First character **must** be either an alphabetic character or an underscore.
 - Can only contain alphabetic characters, numeric characters, or underscores.
