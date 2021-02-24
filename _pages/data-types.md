@@ -46,5 +46,5 @@ Below is a table of data types we'll learn and use in CS-1030. For a full list o
 | ```bool``` 	|  Comparison	| Immutable	| True, False |
 | ```list``` 	|  Sequence	| Mutable	| [1,2,3], ['and','or'] |
 | ```tuple``` 	|  Sequence	| Immutable	| (1,2,3), ('and','or) |
-| ```x``` 	|  	| 	|  |
-
+| ```dict``` 	|  Mapping	| Mutable	| {'flavor': 'sugar', 'frosting': 'almond'} |
+| ```range``` 	|  Sequence	| Immutable	| range(10) |
