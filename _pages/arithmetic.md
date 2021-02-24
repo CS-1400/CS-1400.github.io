@@ -45,7 +45,7 @@ if __name__ == '__main__':
 9
 {% endhighlight %}
 
-[Run on Repl.it](https://repl.it/@bianca_ruiz/built-in-functions#main.py){: .btn }
+[Run on Repl.it](https://repl.it/@bianca_ruiz/arithmetic-operators#main.py){: .btn }
 
 
 
