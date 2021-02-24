@@ -17,7 +17,7 @@ Variables are named areas of memory that we can use to store data. The Python in
 
 
 ## Assignment Statements
-Variable names **must** be to the left of the assignment operator; values **must** be to the right:
+Assignment statements *bind* a value with a name. Variable names **must** be to the left of the assignment operator; values **must** be to the right:
 - ```flavor = 'chocolate chip'```
 - ~~```'chocolate chip' = flavor```~~
 
