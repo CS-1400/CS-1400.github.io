@@ -5,11 +5,11 @@ nav_order: 1
 description: "Home"
 ---
 
-# CS-1030 with Ruiz
+# ![](favicon.ico) CS-1030 with Ruiz
 
 {: .fs-9 }
 
-![](favicon.ico) Welcome students!
+Welcome students!
 
 {: .fs-6 .fw-300 }
 
