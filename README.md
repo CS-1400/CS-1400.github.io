@@ -1,4 +1,4 @@
-# Python3 Reference Website
+# CS-1400 Reference Website
 > I created this website as a reference for my students as they complete their programming assignments.
 
 ## Features
