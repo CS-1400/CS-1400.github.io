@@ -3,7 +3,7 @@ layout: default
 title: Strings
 parent: Data Types
 ---
-# Data Types
+# Strings
 {: .no_toc }
 ## Table of contents
 {: .no_toc .text-delta }
