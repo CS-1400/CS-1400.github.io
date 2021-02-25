@@ -61,4 +61,16 @@ An index is the position of a character in a sequence (like a string). The first
 ![](/assets/string-index.png)
 
 ## Slicing
-A slice is a piece of a string, defined by beginning and ending index numbers: ```string_name[start:end+1:step]```
+A slice is a piece of a string. It is defined by a starting index, a (non-inclusive) ending index, and a step value. If any of the three arguments to the slice are missing, the defaults are as follows:
+- Start: 0    (the first character)
+- End: -1 + 1  (the last character)
+- Step: 1 
+
+| Begin | End + 1 | Step | Code                 | Result        |
+|-------|---------|------|----------------------|---------------|
+| 1     | 9       | -    | ```flavor[3:9]```    | 'ten La'      |
+| -     | 6       | -    | ```flavor[:6]```     | 'Molten'      |
+| 7     | -       | -    | ```flavor[7:]```     | 'Lava'        |
+| -     | -       | -    | ```flavor[:]```      | 'Molten Lava' |
+| -1    | -       | -1   | ```flavor[-1::-1]``` | 'avaL netloM' |
+| -     | -       | 2    | ```flavor[::2]```    | 'Mle aa'      |      
