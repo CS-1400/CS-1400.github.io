@@ -49,25 +49,28 @@ A slice is a piece of a sequence. It is defined by a starting index, a (non-incl
 - End: last character
 - Step: 1 
 
-| Start | End + 1 | Step | Code                 | Result        |
-|-------|---------|------|----------------------|---------------|
-| 3     | 9       |      | ```flavor[3:9]```    | 'ten La'      |
-|       | 6       |      | ```flavor[:6]```     | 'Molten'      |
-| 7     |         |      | ```flavor[7:]```     | 'Lava'        |
-|       |         |      | ```flavor[:]```      | 'Molten Lava' |
-| -1    |         | -1   | ```flavor[-1::-1]``` | 'avaL netloM' |
-|       |         | 2    | ```flavor[::2]```    | 'Mle aa'      |      
+| Begin | End + 1 | Step | Code                  | Result                                                            |
+|-------|---------|------|-----------------------|-------------------------------------------------------------------|
+| 2     | 4       |      | ```flavors[2:4]```    | ```['Gingersnap', 'Molten Lava']```                               |
+|       | 3       |      | ```flavors[:3]```     | ```['Lemon Glaze', 'Pink Velvet', 'Gingersnap']```                |
+| 1     |         |      | ```flavors[1:]```     | ```['Pink Velvet', 'Gingersnap', 'Molten Lava']```                |
+|       |         |      | ```flavors[:]```      | ```['Lemon Glaze', 'Pink Velvet', 'Gingersnap', 'Molten Lava']``` |
+| -1    |         | -1   | ```flavors[-1::-1]``` | ```['Molten Lava', 'Gingersnap', 'Pink Velvet', 'Lemon Glaze']``` |
+|       |         | 2    | ```flavors[::2]```    | ```['Lemon Glaze', 'Gingersnap']```                               |   
 
 {% highlight python %}
-
+flavors = ['Lemon Glaze','Pink Velvet','Gingersnap','Molten Lava']
+print(flavors[2:4])
+print(flavors[:3])
+print(flavors[1:])
+print(flavors[:])
+print(flavors[-1::-1])
+print(flavors[::2])
 {% endhighlight %}
-[Run on Repl.it](https://repl.it/@bianca_ruiz/string-slicing#main.py){: .btn }
+[Run on Repl.it](https://repl.it/@bianca_ruiz/list-slicing#main.py){: .btn }
 
 ## Mutability
 Once strings are created, their individual elements can be changed: 
-{% highlight python %}
-
-{% endhighlight %}
 
 {% highlight console %}
 
