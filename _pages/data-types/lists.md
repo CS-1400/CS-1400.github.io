@@ -89,7 +89,7 @@ print(flavors[::2])
 ## Mutability
 Once strings are created, their individual elements can be changed: 
 
-{% highlight console %}
+{% highlight python %}
 flavors = ['Lemon Glaze', 'Pink Velvet', 'Gingersnap', 'Molten Lava']
 flavors[2] = 'Strawberry Poptart'
 print(flavors)
