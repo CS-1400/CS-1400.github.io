@@ -26,14 +26,14 @@ def main():
     
     flavor = 'Molten Lava'
 
-    print(len(flavor))
-    print(flavor.index('L'))
-    print(flavor.count('a'))
-    print(flavor.replace('Lava','Chocolate'))
-    print(flavor[0])
-    print(flavor[-1])
-    print(flavor[3:9])
-    print(flavor.isdigit())
+    print(len(flavor))          # length
+    print(flavor.index('L'))    # index position of the substring
+    print(flavor.count('a'))    # how many times substring appears in string
+    print(flavor.replace('Lava','Chocolate'))   # replace string1 with string2
+    print(flavor[0])            # index 0 is first character
+    print(flavor[-1])           # index -1 is last character
+    print(flavor[3:9])          # substring from index 3 to 8 (9 minus 1)
+    print(flavor.isdigit())     # True only if ALL numbers
     print(f'|{flavor.lower():^15}|{flavor.upper():<15}|{flavor.swapcase():<15}|')
 
 if __name__ == '__main__':
