@@ -2,6 +2,7 @@
 layout: default
 title: Data Types
 has_children: true
+has_toc: false
 ---
 # Data Types
 {: .no_toc }
