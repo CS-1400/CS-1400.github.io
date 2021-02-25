@@ -41,10 +41,10 @@ if __name__ == '__main__':
 ## Indexing
 An index is the position of an element in a sequence (like a list). The first element is at index 0.. Negative indexing begins at the last element with index -1. 
 
-![](/assets/string-index.png)
+![](/assets/list-index.png)
 
 ## Slicing
-A slice is a piece of a sequence (like a list). It is defined by a starting index, a (non-inclusive) ending index, and a step value. If any of the three arguments to the slice are missing, the defaults are as follows:
+A slice is a piece of a sequence. It is defined by a starting index, a (non-inclusive) ending index, and a step value. If any of the three arguments to the slice are missing, the defaults are as follows:
 - Start: first character
 - End: last character
 - Step: 1 
