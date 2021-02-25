@@ -57,3 +57,4 @@ False
 
 ## Indexing
 An index is the position of a character in a sequence (like a string). Indexing begins at 0. Negative indexing begins at the end of the sequence, at index -1. You can access substrings by slicing with indices.
+![](/assets/string-index.png)
