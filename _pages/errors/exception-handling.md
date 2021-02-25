@@ -1,3 +1,19 @@
+---
+layout: default
+title: Errors
+parent: Errors
+---
+
+# Exception Handling
+{: .no_toc }
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
 ## Exception Handling
 It is always best practice to place error-prone code inside of try/except blocks. When an error occurs it will be handled gracefully, instead of crashing.
 
