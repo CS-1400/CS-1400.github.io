@@ -49,11 +49,11 @@ Below is a table of data types we'll learn and use most often in CS-1030.
 
 | Type 	| Principal Type 	| Mutability 	| Example  |
 |-	|-	|-	|- |
-| ```str``` 	| Sequence 	| Immutable 	| 'Ruiz', '15' |
-| ```int``` 	| Numeric 	| Immutable	| 5, 10000 |
-| ```float``` 	| Numeric 	| Immutable	| 8.9, 900.0 |
-| ```bool``` 	|  Comparison	| Immutable	| True, False |
-| ```list``` 	|  Sequence	| Mutable	| [1,2,3], ['and','or'] |
-| ```tuple``` 	|  Sequence	| Immutable	| (1,2,3), ('and','or) |
-| ```dict``` 	|  Mapping	| Mutable	| {'flavor': 'sugar', 'frosting': 'almond'} |
-| ```range``` 	|  Sequence	| Immutable	| range(10) |
+| ```str``` 	| Sequence 	| Immutable 	| ```'Ruiz'```, ```'15'``` |
+| ```int``` 	| Numeric 	| Immutable	| ```5```, ```10000``` |
+| ```float``` 	| Numeric 	| Immutable	| ```8.9```, ```900.0``` |
+| ```bool``` 	|  Comparison	| Immutable	| ```True```, ```False``` |
+| ```list``` 	|  Sequence	| Mutable	| ```[1,2,3]```, ```['and','or']``` |
+| ```tuple``` 	|  Sequence	| Immutable	| ```(1,2,3)```, ```('and','or)``` |
+| ```dict``` 	|  Mapping	| Mutable	| ```{'flavor': 'sugar', 'frosting': 'almond'}``` |
+| ```range``` 	|  Sequence	| Immutable	| ```range(10)``` |
