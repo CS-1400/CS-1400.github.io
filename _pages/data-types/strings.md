@@ -100,7 +100,7 @@ flavor = 'Molten Lava'
 flavor = flavor[:7] + 'l' + flavor[8:]     
 print(flavor)
 {% endhighlight %}
-- Console Output:
+
 {% highlight console %}
 Molten lava
 {% endhighlight %}
