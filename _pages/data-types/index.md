@@ -14,7 +14,7 @@ has_toc: false
 
 ---
 
-## Definition
+## Description
 A specific type of data; defines the values it can represent and the actions that can be performed on it.
 - [Python Docs: Built-in Types](https://docs.python.org/3/library/stdtypes.html)
 
