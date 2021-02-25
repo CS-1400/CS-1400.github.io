@@ -13,13 +13,13 @@ title: Operations on Numbers
 
 ---
 
-## Definition
-Python automatically evaluates expressions containing numeric values (operands) and operators (or methods). The evaluation follows the normal "PEMDAS" order of operations.
-- [Python Docs: Numeric Types](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex)
-- [Python Docs: Operator Precedence](https://docs.python.org/3/reference/expressions.html#operator-precedence)
-- [Python Docs: math Module](https://docs.python.org/3/library/math.html)
-- [Python Docs: statistics Module](https://docs.python.org/3/library/statistics.html)
-- [Python Docs: random Module](https://docs.python.org/3/library/random.html)
+## Description
+The Python interpreter will automatically evaluate all expressions. The evaluation follows the normal "PEMDAS" order of operations.
+- Python Docs: [Numeric Types](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex)
+- Python Docs: [Operator Precedence](https://docs.python.org/3/reference/expressions.html#operator-precedence)
+- Python Module: [math](https://docs.python.org/3/library/math.html)
+- Python Module: [statistics](https://docs.python.org/3/library/statistics.html)
+- Python Module: [random](https://docs.python.org/3/library/random.html)
 
 ## Example
 
