@@ -14,9 +14,9 @@ parent: Data Types
 ---
 
 ## Description
-Lists are simply a comma-separating sequence of elements, enclosed by square brackets. Each element can be accessed individually by using **index numbers**. Many different actions (aka methods) can be performed on Lists. Lists are also **mutable**, which means you can change their individual characters.
-- Python Docs: []()
-- Python Docs: []()
+Lists are simply a comma-separated sequence of elements, enclosed by square brackets. Each element can be accessed individually by using **index numbers**. Many different actions (aka methods) can be performed on Lists. Lists are also **mutable**, which means you can change their individual characters.
+- Python Docs: [Lists](https://docs.python.org/3/tutorial/introduction.html#lists)
+- Python Docs: [Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
 
 
 ## Example
