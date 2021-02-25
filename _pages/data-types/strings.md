@@ -77,6 +77,17 @@ A slice is a piece of a string. It is defined by a starting index, a (non-inclus
 | -1    |         | -1   | ```flavor[-1::-1]``` | 'avaL netloM' |
 |       |         | 2    | ```flavor[::2]```    | 'Mle aa'      |      
 
+{% highlight python %}
+flavor = 'Molten Lava'
+print(flavor[3:9])          # ‘ten La’ 
+print(flavor[:6])           # 'Molten’
+print(flavor[7:])           # 'Lava'
+print(flavor[:])            # ‘Molten Lava’
+print(flavor[-1::-1])       # ‘avaL netloM’
+print(flavor[::2])          # ‘Mle aa’
+{% endhighlight %}
+[Run on Repl.it](https://repl.it/@bianca_ruiz/string-slicing#main.py){: .btn }
+
 ## Immutability
 Once strings are created, their individual characters cannot be changed: 
 {% highlight python %}
