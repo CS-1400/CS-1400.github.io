@@ -14,8 +14,9 @@ parent: Data Types
 ---
 
 ## Description
-xx
-- [Python Docs: ]()
+Strings are simply a sequence of characters, enclosed by quotes. Each individual character can be accessed individually by using *index numbers*. Many different actions (aka methods) can be performed on Strings. 
+- [Python Docs: Strings](https://docs.python.org/3/tutorial/introduction.html#strings)
+- [Python Docs: Built-in Types: str](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
 
 
 ## Example
