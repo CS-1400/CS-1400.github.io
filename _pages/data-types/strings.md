@@ -54,3 +54,10 @@ False
 {% endhighlight %}
 
 [Run on Repl.it](https://repl.it/@bianca_ruiz/strings#main.py){: .btn }
+
+## Indexing
+An index is the position of a character in a sequence (like a string). Indexing begins at 0. Negative indexing begins at the end of the sequence, at index -1. You can access substrings by slicing with indexing.
+
+|0|1|2|3|4|5|6|7|8|9|10|
+|M|o|l|t|e|n| |L|a|v|a|
+|-11|-10|-9|-8|-7|-6|-5|-4|-3|-2|-1|
