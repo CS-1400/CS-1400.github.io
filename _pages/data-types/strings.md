@@ -68,7 +68,7 @@ A slice is a piece of a string. It is defined by a starting index, a (non-inclus
 
 | Start | End + 1 | Step | Code                 | Result        |
 |-------|---------|------|----------------------|---------------|
-| 1     | 9       |      | ```flavor[3:9]```    | 'ten La'      |
+| 3     | 9       |      | ```flavor[3:9]```    | 'ten La'      |
 |       | 6       |      | ```flavor[:6]```     | 'Molten'      |
 | 7     |         |      | ```flavor[7:]```     | 'Lava'        |
 |       |         |      | ```flavor[:]```      | 'Molten Lava' |
