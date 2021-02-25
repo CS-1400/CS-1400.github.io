@@ -61,4 +61,4 @@ An index is the position of a character in a sequence (like a string). The first
 ![](/assets/string-index.png)
 
 ## Slicing
-A slice is a piece of a string, defined by beginning and ending index numbers: '''string_name[start:end+1:step]'''
+A slice is a piece of a string, defined by beginning and ending index numbers: ```string_name[start:end+1:step]```
