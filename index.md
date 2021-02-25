@@ -23,7 +23,7 @@ I created this site as a reference for my students as they complete their progra
 I have created and deployed two "code bots" that live in our assignment repositories on GitHub. Each time you submit (commit) your program, They both scan it for any possible errors. They will comment their observations and suggestions in the **Feedback** conversation, under the **Pull Request** tab.  I hope their instant and actionable feedback helps every one of my students with the most difficult part of programming: debugging.
 
 ### Python Links
-1. [Python Docs](https://docs.python.org/3/reference/index.html): The definitive resource for anything and everything Python.
+1. [Python Docs](https://docs.python.org/3/): The definitive resource for anything and everything Python.
 2. [Python Tutor](http://www.pythontutor.com/visualize.html#mode=edit): An excellent visual debugger that lets you step through your program one line at a time. You can see exactly what is happening in memory, allowing you quickly identify and fix logic errors. 
 4. [Repl.it](https://repl.it/~): An online, fully featured IDE that allows you to program anywhere you have internet access, even if you can't install software on your machine. 
 5. [SoloLearn Tutorials](https://www.sololearn.com/learning/1073): A free, high-quality, and interactive tutorial I often recommend to students.
