@@ -81,10 +81,10 @@ A slice is a piece of a string. It is defined by a starting index, a (non-inclus
 Once strings are created, their individual characters cannot be changed: 
 {% highlight python %}
 flavor = 'Molten Lava'
-flavor[7] = 'l'     
+flavor[7] = 'l'   # this is an illegal operation  
 print(flavor)
 {% endhighlight %}
-- Console Output:
+
 {% highlight console %}
 Traceback (most recent call last):
   File "main.py", line 8, in <module>
