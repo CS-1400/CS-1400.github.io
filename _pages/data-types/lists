@@ -1,0 +1,76 @@
+---
+layout: default
+title: Lists
+parent: Data Types
+---
+# Lists
+{: .no_toc }
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## Description
+Lists are simply a comma-separating sequence of elements, enclosed by square brackets. Each element can be accessed individually by using **index numbers**. Many different actions (aka methods) can be performed on Lists. Lists are also **mutable**, which means you can change their individual characters.
+- Python Docs: []()
+- Python Docs: []()
+
+
+## Example
+
+{% highlight python %}
+def main():
+    
+
+if __name__ == '__main__':
+    main()
+{% endhighlight %}
+
+- Console Output:
+{% highlight console %}
+
+{% endhighlight %}
+
+[Run on Repl.it](https://repl.it/@bianca_ruiz/strings#main.py){: .btn }
+
+
+
+## Indexing
+An index is the position of an element in a sequence (like a list). The first element is at index 0.. Negative indexing begins at the last element with index -1. 
+
+![](/assets/string-index.png)
+
+## Slicing
+A slice is a piece of a sequence (like a list). It is defined by a starting index, a (non-inclusive) ending index, and a step value. If any of the three arguments to the slice are missing, the defaults are as follows:
+- Start: first character
+- End: last character
+- Step: 1 
+
+| Start | End + 1 | Step | Code                 | Result        |
+|-------|---------|------|----------------------|---------------|
+| 3     | 9       |      | ```flavor[3:9]```    | 'ten La'      |
+|       | 6       |      | ```flavor[:6]```     | 'Molten'      |
+| 7     |         |      | ```flavor[7:]```     | 'Lava'        |
+|       |         |      | ```flavor[:]```      | 'Molten Lava' |
+| -1    |         | -1   | ```flavor[-1::-1]``` | 'avaL netloM' |
+|       |         | 2    | ```flavor[::2]```    | 'Mle aa'      |      
+
+{% highlight python %}
+
+{% endhighlight %}
+[Run on Repl.it](https://repl.it/@bianca_ruiz/string-slicing#main.py){: .btn }
+
+## Mutability
+Once strings are created, their individual elements can be changed: 
+{% highlight python %}
+
+{% endhighlight %}
+
+{% highlight console %}
+
+{% endhighlight %}
+
+[Run on Repl.it](https://repl.it/@bianca_ruiz/string-immutability#main.py){: .btn }
