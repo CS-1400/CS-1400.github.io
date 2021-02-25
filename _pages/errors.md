@@ -13,7 +13,7 @@ title: Errors
 
 ---
 
-## Definition
+## Description
 The three types of errors we encounter while programming are syntax, runtime, and logic. Each of these errors are described below, along with a small example.
 - [Python Docs: Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html)
 
