@@ -56,6 +56,9 @@ False
 [Run on Repl.it](https://repl.it/@bianca_ruiz/strings#main.py){: .btn }
 
 ## Indexing
-An index is the position of a character in a sequence (like a string). The first character is at index 0:  ```flavor[0]```. Negative indexing begins at the last character with index -1. You can access substrings by slicing with indices.
+An index is the position of a character in a sequence (like a string). The first character is at index 0:  ```flavor[0]```. Negative indexing begins at the last character with index -1. 
 
 ![](/assets/string-index.png)
+
+## Slicing
+A slice is a peice of a string, defined by beginning and ending index numbers. 
