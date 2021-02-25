@@ -28,9 +28,9 @@ def main():
 
     print(len(flavors))                 # length
     print(flavors.index('Gingersnap'))  # index position of the element
-    flavors.remove('Molten Lava')       # remove element from list
+    flavors.remove('Molten Lava')       # remove item from list
     print(flavors)
-    flavors.append('Molten Lava')       # add element to end of list
+    flavors.append('Molten Lava')       # add item to end of list
     print(flavors)
     print(flavors[0])                   # index 0 is first element
     print(flavors[-1])                  # index -1 is last element
