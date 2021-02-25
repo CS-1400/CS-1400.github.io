@@ -19,7 +19,7 @@ has_toc: false
 The three types of errors we encounter while programming are syntax, runtime, and logic. Each of these errors are described below, along with a small example.
 - [Python Docs: Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html)
 
-## Syntax Errors
+## Syntax Erros
 Syntax errors are caused by not following the rules of the language. Examples: beginning a variable name with a number, forgetting to close parenthesis or quotes, or misspelling keywords. The editor will usually bring these to your attention by underlining them in red.
 {% highlight python %}
 Print('Hello there!')       # the *p* in print should not be capitalized
