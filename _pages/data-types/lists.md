@@ -87,7 +87,7 @@ print(flavors[::2])
 [Run on Repl.it](https://repl.it/@bianca_ruiz/list-slicing#main.py){: .btn }
 
 ## Mutability
-Once strings are created, their individual elements can be changed: 
+Once lists are created, their individual elements can be changed: 
 
 {% highlight python %}
 flavors = ['Lemon Glaze', 'Pink Velvet', 'Gingersnap', 'Molten Lava']
