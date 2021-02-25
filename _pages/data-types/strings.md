@@ -55,8 +55,7 @@ False
 
 [Run on Repl.it](https://repl.it/@bianca_ruiz/strings#main.py){: .btn }
 
-## Immutability
-Once strings are created, their individual characters cannot be changed. 
+
 
 ## Indexing
 An index is the position of a character in a sequence (like a string). The first character is at index 0:  ```flavor[0]```. Negative indexing begins at the last character with index -1. 
@@ -77,3 +76,31 @@ A slice is a piece of a string. It is defined by a starting index, a (non-inclus
 |       |         |      | ```flavor[:]```      | 'Molten Lava' |
 | -1    |         | -1   | ```flavor[-1::-1]``` | 'avaL netloM' |
 |       |         | 2    | ```flavor[::2]```    | 'Mle aa'      |      
+
+## Immutability
+Once strings are created, their individual characters cannot be changed: 
+{% highlight python %}
+flavor = 'Molten Lava'
+flavor[7] = 'l'     
+print(flavor)
+{% endhighlight %}
+- Console Output:
+{% highlight console %}
+Traceback (most recent call last):
+  File "main.py", line 8, in <module>
+    main()
+  File "main.py", line 4, in main
+    flavor[7] = 'l'     
+TypeError: 'str' object does not support item assignment
+{% endhighlight %}
+
+Instead, reassign the **entire** string:
+{% highlight python %}
+flavor = 'Molten Lava'
+flavor = flavor[:7] + 'l' + flavor[8:]     
+print(flavor)
+{% endhighlight %}
+- Console Output:
+{% highlight console %}
+Molten lava
+{% endhighlight %}
