@@ -90,7 +90,11 @@ print(flavors[::2])
 Once strings are created, their individual elements can be changed: 
 
 {% highlight console %}
-
+flavors = ['Lemon Glaze', 'Pink Velvet', 'Gingersnap', 'Molten Lava']
+flavors[2] = 'Strawberry Poptart'
+print(flavors)
 {% endhighlight %}
-
-[Run on Repl.it](https://repl.it/@bianca_ruiz/string-immutability#main.py){: .btn }
+{% highlight console %}
+['Lemon Glaze', 'Pink Velvet', 'Strawberry Poptart', 'Molten Lava']
+{% endhighlight %}
+[Run on Repl.it](https://repl.it/@bianca_ruiz/list-mutability#main.py){: .btn }
