@@ -12,8 +12,8 @@ title: Variables
 
 ---
 
-## Definition
-Variables are named areas of memory that we can use to store data. The Python interpreter sees the variables we create as **Objects**. All objects have three things: a name, a type, and a value.
+## Description
+Variables are named areas of memory that we can use to store data. The Python interpreter categorizes all variables as **Object**. All objects have three things: a name, a type, and a value.
 
 
 ## Assignment Statements
