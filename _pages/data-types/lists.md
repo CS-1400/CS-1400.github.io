@@ -24,6 +24,17 @@ Lists are simply a comma-separated sequence of elements, enclosed by square brac
 {% highlight python %}
 def main():
     
+    flavors = ['Lemon Glaze', 'Pink Velvet', 'Gingersnap', 'Molten Lava']
+
+    print(len(flavors))                 # length
+    print(flavors.index('Gingersnap'))  # index position of the element
+    flavors.remove('Molten Lava')       # remove element from list
+    print(flavors)
+    flavors.append('Molten Lava')       # add element to end of list
+    print(flavors)
+    print(flavors[0])                   # index 0 is first element
+    print(flavors[-1])                  # index -1 is last element
+    print(flavors[1:3])                 # slice from index 1 to 2 (3 minus 1)
 
 if __name__ == '__main__':
     main()
@@ -31,10 +42,16 @@ if __name__ == '__main__':
 
 - Console Output:
 {% highlight console %}
-
+4
+0
+['Lemon Glaze', 'Pink Velvet', 'Gingersnap']
+['Lemon Glaze', 'Pink Velvet', 'Gingersnap', 'Molten Lava']
+Lemon Glaze
+Molten Lava
+['Pink Velvet', 'Gingersnap']
 {% endhighlight %}
 
-[Run on Repl.it](https://repl.it/@bianca_ruiz/strings#main.py){: .btn }
+[Run on Repl.it](https://repl.it/@bianca_ruiz/lists-1#main.py){: .btn }
 
 
 
