@@ -52,9 +52,8 @@ if __name__ == '__main__':
 2
 Molten Chocolate
 M
-v
+a
 ten La
-avaL netloM
 False
 |  molten lava  |MOLTEN LAVA    |mOLTEN lAVA    |
 {% endhighlight %}
