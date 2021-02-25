@@ -16,7 +16,7 @@ parent: Errors
 
 ## Description
 Exception handling allows programmers to deal with an error gracefully and avoid a sudden program crash. It is best practice to place error-prone code inside of try/except blocks. 
-- Python Docs Wiki: [Handling Exceptions](https://wiki.python.org/moin/HandlingExceptions
+- Python Docs Wiki: [Handling Exceptions](https://wiki.python.org/moin/HandlingExceptions)
 
 ### Without exception handling
 {% highlight python %}
