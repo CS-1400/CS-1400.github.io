@@ -1,4 +1,3 @@
-
 # files to ignore when merging (syncing with forks downstream)
 # Already ran % git config --global merge.ours.driver true on local; be sure to do that for forks!!!
 # ughhh merge conflicts lol
