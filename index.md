@@ -38,5 +38,3 @@ CS-1030 with Ruiz is distributed by an [MIT license](https://github.com/CS-1030/
 
 ### Test Embed
 <iframe src="https://trinket.io/embed/python/02b6657f3f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
-![](https://trinket.io/embed/python/02b6657f3f)
