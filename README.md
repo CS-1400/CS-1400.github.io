@@ -8,6 +8,7 @@
 - Automatically syncs with its parent repo (CS-1030/CS-1030.github.io) every Thursday night at 11pm UTC
   - The frequency and exact timing can be adjusted [here](https://github.com/CS-1400/CS-1400.github.io/blob/e3801251b0c36a5188c5e4eec6d3db3e329eef69/.github/workflows/fork-news.yml#L6)
   - The autosync will not delete any additions or edits made to this fork, it will simply produce a pull request for review.
+  - The sync can also be run manually. Open the **Actions** tab, click **Fork News**, then click **Run workflow**.
 
 ## Future Features
 - Maybe... set this repo up as a parent repo for CS 1410's website. Then all changes can go "downhill"
