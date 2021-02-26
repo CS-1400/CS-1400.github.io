@@ -23,26 +23,7 @@ Lists are simply a comma-separated sequence of elements, enclosed by square brac
 
 ## Example
 
-{% highlight python %}
-def main():
-    
-    flavors = ['Lemon Glaze', 'Pink Velvet', 'Gingersnap', 'Molten Lava']
-
-    print(len(flavors))                 # 4
-    print(flavors.index('Gingersnap'))  # 0
-    flavors.remove('Molten Lava')       # ['Lemon Glaze', 'Pink Velvet', 'Gingersnap']
-    print(flavors)
-    flavors.append('Molten Lava')       # ['Lemon Glaze', 'Pink Velvet', 'Gingersnap', 'Molten Lava']
-    print(flavors)
-    print(flavors[0])                   # Lemon Glaze
-    print(flavors[-1])                  # Molten Lava
-    print(flavors[1:3])                 # ['Pink Velvet', 'Gingersnap']
-
-if __name__ == '__main__':
-    main()
-{% endhighlight %}
-
-[Run on Repl.it](https://repl.it/@bianca_ruiz/lists-1#main.py){: .btn }
+<iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/lists-1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Indexing
 An index is the position of an element in a sequence (like a list). The first element is at index 0. Negative indexing begins at the last element with index -1. 
