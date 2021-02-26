@@ -18,9 +18,8 @@ Strings are simply a sequence of characters, enclosed by quotes.
 - Strings are **immutable**, which means you cannot change their individual characters.
 - **Index numbers** allow access to individual characters. 
 - Many different actions (methods and functions) can be performed on strings. 
-
-- [Python Docs: Strings](https://docs.python.org/3/tutorial/introduction.html#strings)
-- [Python Docs: Built-in Types: str](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
+- Python Docs: [Strings](https://docs.python.org/3/tutorial/introduction.html#strings)
+- Python Docs: [Built-in Types: str](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
 
 ## Example
 
