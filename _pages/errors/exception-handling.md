@@ -24,4 +24,4 @@ Run the program below, and enter non-numeric input at the prompt. Notice that th
 
 ### With exception handling
 Run the program below, and enter non-numeric input at the prompt. Compare the output with the previous program. 
-<iframe height="800px" width="100%" src="https://repl.it/@bianca_ruiz/exception-handling?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/exception-handling?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
