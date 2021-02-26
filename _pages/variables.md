@@ -42,6 +42,8 @@ Assignment statements *bind* a value with a name. Variable names **must** be to 
 ## Reassignment
 When a value is *bound* to a variable, it is not permanent. Python code is executed sequentially, and keeps no record of prior variable values:
 
+<iframe src="https://trinket.io/embed/python/caaba677fb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 {% highlight python %}
 def main():
 
