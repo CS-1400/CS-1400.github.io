@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-# CS-1030 Reference Website
-[https://cs-1030.github.io/](https://cs-1030.github.io/)
-=======
 # CS-1400 Reference Website
->>>>>>> main
 > I created this website as a reference for my students as they complete their programming assignments.
 
 ## Features
@@ -15,14 +10,8 @@
 - [just-the-docs](https://github.com/pmarsceill/just-the-docs) theme: [Patrick Marsceill](https://github.com/pmarsceill), GitHub Product Designer
 
 ## Copyright
-<<<<<<< HEAD
-CS-1030 with Ruiz is © 2021 by Bianca Ruiz.
-
-## License
-CS-1030 with Ruiz is distributed by an [MIT license](https://github.com/CS-1030/CS-1030.github.io/blob/main/LICENSE.txt).
-=======
 CS-1400 with Ruiz is © 2021 by Bianca Ruiz.
 
 ## License
 CS-1400 with Ruiz is distributed by an [MIT license]().
->>>>>>> main
+
