@@ -33,4 +33,4 @@ I have created and deployed two "code bots" that live in our assignment reposito
 CS-1400 with Ruiz is &copy; {{ "now" | date: "%Y" }} by Bianca Ruiz.
 
 ### License
-CS-1400 with Ruiz is distributed by an [MIT license](https://github.com/CS-1030/CS-1030.github.io/tree/master/LICENSE.txt).
+CS-1400 with Ruiz is distributed by an [MIT license](https://github.com/CS-1400/CS-1400.github.io/tree/master/LICENSE.txt).
