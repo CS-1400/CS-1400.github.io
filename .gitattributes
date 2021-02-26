@@ -1,4 +1,5 @@
-# files to ignore when merging 
+# files to ignore when merging (syncing fork from upstream CS-1030/CS-1030.github.io)
+# ughhh merge conflicts lol
 # https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#_merge_strategies
 
 README.md merge=ours
