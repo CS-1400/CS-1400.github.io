@@ -7,3 +7,4 @@ _config.yml merge=ours
 LICENSE.txt merge=ours
 .gitattributes merge=ours
 .gitignore merge=ours
+*.yml merge=ours
