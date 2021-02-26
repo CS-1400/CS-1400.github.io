@@ -14,10 +14,13 @@ parent: Data Types
 ---
 
 ## Description
-Strings are simply a sequence of characters, enclosed by quotes. Each character can be accessed individually by using **index numbers**. Many different actions (aka methods) can be performed on Strings. Strings are also **immutable**, which means you cannot change their individual characters.
+Strings are simply a sequence of characters, enclosed by quotes. 
+- Strings are **immutable**, which means you cannot change their individual characters.
+- **Index numbers** allow access to individual characters. 
+- Many different actions (methods and functions) can be performed on strings. 
+
 - [Python Docs: Strings](https://docs.python.org/3/tutorial/introduction.html#strings)
 - [Python Docs: Built-in Types: str](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
-
 
 ## Example
 
@@ -57,7 +60,7 @@ False
 
 
 ## Indexing
-An index is the position of a character in a sequence (like a string). The first character is at index 0:  ```flavor[0]```. Negative indexing begins at the last character with index -1. 
+An index is the position of an element in a sequence. Indexing begins at 0 with the first element. Negative indexing begins at -1 with the last element. 
 
 ![](/assets/string-index.png)
 
