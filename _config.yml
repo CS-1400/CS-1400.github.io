@@ -1,7 +1,11 @@
 remote_theme: pmarsceill/just-the-docs
 title: CS-1400 with Ruiz
 description: Python3 references
+<<<<<<< HEAD
+url: "https://cs-1030.github.io"
+=======
 url: "https://cs-1400.github.io" 
+>>>>>>> main
 permalink: /:title/
 
 
