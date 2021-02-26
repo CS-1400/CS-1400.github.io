@@ -51,5 +51,6 @@ A slice is a piece of a string. It is defined by a starting index, a (non-inclus
 Once strings are created, their individual characters cannot be changed. 
 1. Run the program as-is, with line 5 commented out. Notice the error in the console: ```'str' object does not support item assignment```.
 2. Next, comment out line 4, and uncomment line 5. The program will run without any errors. 
+
 So, you **can** reassign an entire string, but you **cannot** reassign parts (individual elements) of a string.
 <iframe height="500px" width="100%" src="https://repl.it/@bianca_ruiz/string-immutability?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
