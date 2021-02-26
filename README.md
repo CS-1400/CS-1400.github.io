@@ -1,5 +1,4 @@
 # CS-1030 Reference Website
-[https://cs-1030.github.io/](https://cs-1030.github.io/)
 > I created this website as a reference for my students as they complete their programming assignments.
 
 ## Features
