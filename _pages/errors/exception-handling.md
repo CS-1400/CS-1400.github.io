@@ -19,7 +19,7 @@ Exception handling allows programmers to deal with an error gracefully and avoid
 - Python Docs Wiki: [Handling Exceptions](https://wiki.python.org/moin/HandlingExceptions)
 
 ### Without exception handling
-Try running this program, and enter non-numeric input at the prompt. Examine the output.
+Run the program below with non-numeric input at the prompt. Notice that the runtime error (exception) crashes the program.
 <iframe height="400px" width="100%" src="https://repl.it/@bianca_ruiz/no-exception-handling?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 [Watch in PythonTutor](http://www.pythontutor.com/visualize.html#code=def%20main%28%29%3A%0A%20%20%20%20%0A%20%20%20%20quantity%20%3D%20int%28input%28'How%20many%20cookies%20do%20you%20want%3F%20'%29%29%20%20%20%0A%20%20%20%20print%28f'Excellent!%20Here%20are%20your%20%7Bquantity%7D%20cookies...'%29%0A%0Aif%20__name__%20%3D%3D%20'__main__'%3A%0A%20%20%20%20main%28%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false){: .btn}
