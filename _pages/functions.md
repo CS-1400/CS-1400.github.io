@@ -23,19 +23,7 @@ See: [Python Docs: Built-in Functions](https://docs.python.org/3/library/functio
 
 ## Example
 
-{% highlight python %}
-def main():
-
-    name = input('Hi! What\'s your name? ')
-    print('Nice to meet you, ' + name)
-
-if __name__ == '__main__':
-    main()
-{% endhighlight %}
-
-[Run on Repl.it](https://repl.it/@bianca_ruiz/built-in-functions#main.py){: .btn }
-
-
+<iframe height="400px" width="100%" src="https://repl.it/@bianca_ruiz/built-in-functions?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Built-in Functions
 Below is a table of functions we'll learn and use most in CS-1030. 
