@@ -13,7 +13,7 @@ title: Variables
 ---
 
 ## Description
-Variables are named areas of memory that we can use to store data. The Python interpreter categorizes all variables as **Object**. All objects have three things: a name, a type, and a value.
+Variables are named areas of memory that we can use to store data. The Python interpreter categorizes all variables as **Objects**. All objects have three things: a name, a type, and a value.
 
 ## Assignment Statements
 Assignment statements *bind* a value with a name. Variable names **must** be to the left of the assignment operator; values **must** be to the right:

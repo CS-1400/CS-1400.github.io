@@ -14,10 +14,12 @@ parent: Data Types
 ---
 
 ## Description
-Lists are simply a comma-separated sequence of elements, enclosed by square brackets. Each element can be accessed individually by using **index numbers**. Many different actions (aka methods) can be performed on Lists. Lists are also **mutable**, which means you can change their individual characters.
+Lists are simply a comma-separated sequence of elements, enclosed by square brackets.
+- **Mutable**: you can change their individual elements.
+- **Index numbers** allow access to individual elements. 
+- Many different actions (methods and functions) can be performed on lists. 
 - Python Docs: [Lists](https://docs.python.org/3/tutorial/introduction.html#lists)
 - Python Docs: [Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
-
 
 ## Example
 
@@ -26,37 +28,24 @@ def main():
     
     flavors = ['Lemon Glaze', 'Pink Velvet', 'Gingersnap', 'Molten Lava']
 
-    print(len(flavors))                 # length
-    print(flavors.index('Gingersnap'))  # index position of the element
-    flavors.remove('Molten Lava')       # remove item from list
+    print(len(flavors))                 # 4
+    print(flavors.index('Gingersnap'))  # 0
+    flavors.remove('Molten Lava')       # ['Lemon Glaze', 'Pink Velvet', 'Gingersnap']
     print(flavors)
-    flavors.append('Molten Lava')       # add item to end of list
+    flavors.append('Molten Lava')       # ['Lemon Glaze', 'Pink Velvet', 'Gingersnap', 'Molten Lava']
     print(flavors)
-    print(flavors[0])                   # index 0 is first element
-    print(flavors[-1])                  # index -1 is last element
-    print(flavors[1:3])                 # slice from index 1 to 2 (3 minus 1)
+    print(flavors[0])                   # Lemon Glaze
+    print(flavors[-1])                  # Molten Lava
+    print(flavors[1:3])                 # ['Pink Velvet', 'Gingersnap']
 
 if __name__ == '__main__':
     main()
 {% endhighlight %}
 
-- Console Output:
-{% highlight console %}
-4
-0
-['Lemon Glaze', 'Pink Velvet', 'Gingersnap']
-['Lemon Glaze', 'Pink Velvet', 'Gingersnap', 'Molten Lava']
-Lemon Glaze
-Molten Lava
-['Pink Velvet', 'Gingersnap']
-{% endhighlight %}
-
 [Run on Repl.it](https://repl.it/@bianca_ruiz/lists-1#main.py){: .btn }
 
-
-
 ## Indexing
-An index is the position of an element in a sequence (like a list). The first element is at index 0.. Negative indexing begins at the last element with index -1. 
+An index is the position of an element in a sequence (like a list). The first element is at index 0. Negative indexing begins at the last element with index -1. 
 
 ![](/assets/list-index.png)
 
