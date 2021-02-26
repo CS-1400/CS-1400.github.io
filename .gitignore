@@ -1,0 +1,12 @@
+
+# files to ignore when merging (syncing with forks downstream)
+# ughhh merge conflicts lol
+# https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#_merge_strategies
+
+README.md merge=ours
+index.md merge=ours
+_config.yml merge=ours
+LICENSE.txt merge=ours
+.gitattributes merge=ours
+.gitignore merge=ours
+*.yml merge=ours
