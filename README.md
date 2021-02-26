@@ -20,4 +20,3 @@ CS-1400 with Ruiz is © 2021 by Bianca Ruiz.
 
 ## License
 CS-1400 with Ruiz is distributed by an [MIT license]().
-

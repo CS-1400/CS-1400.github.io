@@ -21,31 +21,10 @@ A specific category of data. Type defines what values the object can represent, 
 
 ## Example
 
-{% highlight python %}
-def main():
-
-    my_float = 6.2
-    my_string = 'Ruiz'
-
-    print(f'my_float type:\t{type(my_float)}')
-    print(f'my_string type:\t{type(my_string)}')
-
-if __name__ == '__main__':
-    main()
-{% endhighlight %}
-
-- Console Output:
-{% highlight console %}
-my_float type:  <class 'float'>
-my_string type: <class 'str'>
-{% endhighlight %}
-
-[Run on Repl.it](https://repl.it/@bianca_ruiz/data-types#main.py){: .btn }
-
-
+<iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/data-types?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Built-in Types
-Below is a table of data types we'll learn and use most often in CS-1030.
+Below is a table of data types we'll learn and use most often in class.
 
 | Type 	| Principal Type 	| Mutability 	| Example  |
 |-	|-	|-	|- |

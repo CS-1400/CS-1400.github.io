@@ -41,24 +41,6 @@ Assignment statements *bind* a value with a name. Variable names **must** be to 
 ## Reassignment
 When a value is *bound* to a variable, it is not permanent. Python code is executed sequentially, and keeps no record of prior variable values:
 
-{% highlight python %}
-def main():
+<iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/variables?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-    # I buy 3 cookies at Crumbl:
-    cookies = 3
-    print('Three cookies: nom nom nom')
-    # I buy one more cookie:
-    cookies += 1
-    print('Fourth cookie: nom nom nom')
-    # I buy one last cookie:
-    cookies += 1
-    print('Fifth cookie: nom nom nom')
-    # The value of cookie is now 5:
-    print(f'I ate {cookies} cookies!!')
-
-if __name__ == '__main__':
-    main()
-{% endhighlight %}
-
-[Run on Repl.it](https://repl.it/@bianca_ruiz/variables#main.py){: .btn .mr-4}
 [Watch on PythonTutor](http://www.pythontutor.com/visualize.html#code=def%20main%28%29%3A%0A%0A%20%20%20%20%23%20I%20buy%203%20cookies%20at%20Crumbl%3A%0A%20%20%20%20cookies%20%3D%203%0A%20%20%20%20print%28'Three%20cookies%3A%20nom%20nom%20nom'%29%0A%20%20%20%20%23%20I%20buy%20one%20more%20cookie%3A%0A%20%20%20%20cookies%20%2B%3D%201%0A%20%20%20%20print%28'Fourth%20cookie%3A%20nom%20nom%20nom'%29%0A%20%20%20%20%23%20I%20buy%20one%20last%20cookie%3A%0A%20%20%20%20cookies%20%2B%3D%201%0A%20%20%20%20print%28'Fifth%20cookie%3A%20nom%20nom%20nom'%29%0A%20%20%20%20%23%20The%20value%20of%20cookie%20is%20now%205%3A%0A%20%20%20%20print%28f'I%20ate%20%7Bcookies%7D%20cookies!!'%29%0A%0Aif%20__name__%20%3D%3D%20'__main__'%3A%0A%20%20%20%20main%28%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false){: .btn }
