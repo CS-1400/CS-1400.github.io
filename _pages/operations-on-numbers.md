@@ -23,28 +23,4 @@ The Python interpreter will automatically evaluate all expressions. The evaluati
 
 ## Example
 
-{% highlight python %}
-import math
-import statistics as st
-from random import randint
-
-def main():
-
-    print(4 / 2)                # 2.0
-    print(5 // 2)               # 2
-    print(5 % 2)                # 1
-    print((5 + 2) * 2)          # 14
-
-    print(int(5.6))             # 5
-    print(float(8))             # 8.0
-
-    print(math.gcd(4,16))       # 4
-    print(math.sqrt(9))         # 3.0
-    print(st.mean([5,10,15]))   # 10
-    print(randint(5,15))        # any random integer from 5 through 15
-
-if __name__ == '__main__':
-    main()
-{% endhighlight %}
-
-[Run on Repl.it](https://repl.it/@bianca_ruiz/operations-on-numbers#main.py){: .btn }
+<iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/operations-on-numbers?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
