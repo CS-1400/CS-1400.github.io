@@ -45,16 +45,7 @@ A slice is a piece of a sequence. It is defined by a starting index, a (non-incl
 | -1    |         | -1   | ```flavors[-1::-1]``` | ```['Molten Lava', 'Gingersnap', 'Pink Velvet', 'Lemon Glaze']``` |
 |       |         | 2    | ```flavors[::2]```    | ```['Lemon Glaze', 'Gingersnap']```                               |   
 
-{% highlight python %}
-flavors = ['Lemon Glaze','Pink Velvet','Gingersnap','Molten Lava']
-print(flavors[2:4])
-print(flavors[:3])
-print(flavors[1:])
-print(flavors[:])
-print(flavors[-1::-1])
-print(flavors[::2])
-{% endhighlight %}
-[Run on Repl.it](https://repl.it/@bianca_ruiz/list-slicing#main.py){: .btn }
+<iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/list-slicing?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Mutability
 Once lists are created, their individual elements can be changed: 
