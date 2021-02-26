@@ -14,10 +14,12 @@ parent: Data Types
 ---
 
 ## Description
-Lists are simply a comma-separated sequence of elements, enclosed by square brackets. Each element can be accessed individually by using **index numbers**. Many different actions (aka methods) can be performed on Lists. Lists are also **mutable**, which means you can change their individual characters.
+Lists are simply a comma-separated sequence of elements, enclosed by square brackets.
+- **Mutable**: you can change their individual elements.
+- **Index numbers** allow access to individual elements. 
+- Many different actions (methods and functions) can be performed on lists. 
 - Python Docs: [Lists](https://docs.python.org/3/tutorial/introduction.html#lists)
 - Python Docs: [Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
-
 
 ## Example
 
@@ -43,7 +45,7 @@ if __name__ == '__main__':
 [Run on Repl.it](https://repl.it/@bianca_ruiz/lists-1#main.py){: .btn }
 
 ## Indexing
-An index is the position of an element in a sequence (like a list). The first element is at index 0.. Negative indexing begins at the last element with index -1. 
+An index is the position of an element in a sequence (like a list). The first element is at index 0. Negative indexing begins at the last element with index -1. 
 
 ![](/assets/list-index.png)
 
