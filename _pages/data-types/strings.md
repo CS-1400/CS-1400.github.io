@@ -23,27 +23,7 @@ Strings are simply a sequence of characters, enclosed by quotes.
 
 ## Example
 
-{% highlight python %}
-def main():
-    
-    flavor = 'Molten Lava'
-    print(len(flavor))          # 11
-    print(flavor.index('L'))    # 7
-    print(flavor.count('a'))    # 2
-    print(flavor.replace('Lava','Chocolate'))   # Molten Chocolate
-    print(flavor[0])            # M
-    print(flavor[-1])           # a
-    print(flavor[3:9])          # ten La
-    print(flavor.isdigit())     # False
-    
-    print(f'|{flavor.lower():^15}|{flavor.upper():<15}|{flavor.swapcase():>15}|')
-    # |  molten lava  |MOLTEN LAVA    |    mOLTEN lAVA|
-
-if __name__ == '__main__':
-    main()
-{% endhighlight %}
-
-[Run on Repl.it](https://repl.it/@bianca_ruiz/strings#main.py){: .btn }
+<iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/strings?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Indexing
 An index is the position of an element in a sequence. Indexing begins at 0 with the first element. Negative indexing begins at -1 with the last element. 
