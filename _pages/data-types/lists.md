@@ -48,15 +48,8 @@ A slice is a piece of a sequence. It is defined by a starting index, a (non-incl
 <iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/list-slicing?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Mutability
-Once lists are created, their individual elements can be changed: 
+After lists are created, you can change their individual elements: 
 
-{% highlight python %}
-flavors = ['Lemon Glaze', 'Pink Velvet', 'Gingersnap', 'Molten Lava']
-flavors[2] = 'Strawberry Poptart'
-print(flavors)
-{% endhighlight %}
-{% highlight console %}
-['Lemon Glaze', 'Pink Velvet', 'Strawberry Poptart', 'Molten Lava']
-{% endhighlight %}
-[Run on Repl.it](https://repl.it/@bianca_ruiz/list-mutability#main.py){: .btn }
+<iframe height="400px" width="100%" src="https://repl.it/@bianca_ruiz/list-mutability?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 [Watch in PythonTutor](http://www.pythontutor.com/visualize.html#code=def%20main%28%29%3A%0A%20%20%20%20%0A%20%20%20%20flavors%20%3D%20%5B'Lemon%20Glaze',%20'Pink%20Velvet',%20'Gingersnap',%20'Molten%20Lava'%5D%0A%20%20%20%20flavors%5B2%5D%20%3D%20'Strawberry%20Poptart'%0A%20%20%20%20print%28flavors%29%0A%0Aif%20__name__%20%3D%3D%20'__main__'%3A%0A%20%20%20%20main%28%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false){: .btn }
