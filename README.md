@@ -2,7 +2,7 @@
 > I created this website as a reference for my students as they complete their programming assignments.
 
 ## Features
-- Website automatically redeploys with every push to a page in the _pages directory.
+- Website automatically redeploys with every new commit.
 - More pages can be added to the website by creating another page in the _pages directory.
   - Use an existing page as a template.
 - Automatically syncs with its parent repo (CS-1030/CS-1030.github.io) every Thursday night at 11pm UTC
