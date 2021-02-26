@@ -16,7 +16,7 @@ has_toc: false
 
 ## Description
 A specific category of data. Type defines what values the object can represent, and which actions can be performed on it.
-- [Python Docs: Built-in Types](https://docs.python.org/3/library/stdtypes.html)
+- Python Docs: [Built-in Types](https://docs.python.org/3/library/stdtypes.html)
 
 
 ## Example
