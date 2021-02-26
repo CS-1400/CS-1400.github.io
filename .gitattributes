@@ -1,0 +1,3 @@
+# files to ignore when merging 
+
+README.md merge=ours
