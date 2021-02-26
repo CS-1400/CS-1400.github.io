@@ -17,7 +17,7 @@
 - Maybe... set this repo up as a parent repo for CS 1410's website. Then all changes can go "downhill"
 
 ## Attributions
-- [just-the-docs](https://github.com/pmarsceill/just-the-docs) theme: [Patrick Marsceill](https://github.com/pmarsceill), GitHub Product Designer
+[Patrick Marsceill](https://github.com/pmarsceill) (GitHub Product Designer): [just-the-docs](https://github.com/pmarsceill/just-the-docs) theme 
 
 ## Copyright
 CS-1400 with Ruiz is © 2021 by Bianca Ruiz.
