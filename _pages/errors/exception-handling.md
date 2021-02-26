@@ -25,6 +25,7 @@ def main():
     quantity = int(input('How many cookies do you want? '))   
     print(f'Excellent! Here are your {quantity} cookies...')
 
+
 if __name__ == '__main__':
     main()
 {% endhighlight %}
@@ -41,6 +42,7 @@ ValueError: invalid literal for int() with base 10: 'y'
 [Run on Repl.it](https://repl.it/@bianca_ruiz/no-exception-handling#main.py){: .btn .mr-4}[Watch in PythonTutor](http://www.pythontutor.com/visualize.html#code=def%20main%28%29%3A%0A%20%20%20%20%0A%20%20%20%20quantity%20%3D%20int%28input%28'How%20many%20cookies%20do%20you%20want%3F%20'%29%29%20%20%20%0A%20%20%20%20print%28f'Excellent!%20Here%20are%20your%20%7Bquantity%7D%20cookies...'%29%0A%0Aif%20__name__%20%3D%3D%20'__main__'%3A%0A%20%20%20%20main%28%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false){: .btn}
 
 ### With exception handling
+
 {% highlight python %}
 def main():
     
