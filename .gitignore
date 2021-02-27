@@ -1,1 +1,10 @@
-
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+#index.md
+#_config.yml
+#README.md
+#LICENSE.txt
+#CONTRIBUTING.md
+#CODE_OF_CONDUCT.md
