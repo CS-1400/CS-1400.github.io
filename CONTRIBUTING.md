@@ -1,11 +1,11 @@
 # Contributing
 I'd love your input! I want to make contributing to this project as easy and transparent as possible, whether it's:
 
+- Proposing new content
 - Reporting a bug
-- Discussing the current state of the code
 - Submitting a fix
 - Proposing new features
-- Proposing new content
+- Discussing the current state of the code
 - etc
 
 ## I Develop with GitHub
