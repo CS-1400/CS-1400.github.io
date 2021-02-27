@@ -15,9 +15,6 @@
   - The sync can also be run manually. Open the **Actions** tab, click **Fork News**, then click **Run workflow**.
 - If **you fork this repo** instead of cloning it, you will also have access to all the upstream syncing goodness! [Follow these directions](https://github.com/marketplace/actions/fork-news) in your own fork to set this up. This will automatically set up a scheduled pull request for you to approve.
 
-## Future Features
-- Maybe... set this repo up as a parent repo for CS 1410's website. Then all changes can go "downhill"
-
 ## Attributions
 [Patrick Marsceill](https://github.com/pmarsceill) (GitHub Product Designer): [just-the-docs](https://github.com/pmarsceill/just-the-docs) theme 
 
