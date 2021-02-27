@@ -23,7 +23,8 @@ Lists are simply a comma-separated sequence of elements, enclosed by square brac
 
 ## Example
 
-<iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/lists-1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=flavors%20%3D%20%5B'Lemon%20Glaze',%20'Pink%20Velvet',%20%0A'Gingersnap',%20'Molten%20Lava'%5D%0A%0Alength%20%3D%20len%28flavors%29%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0Ag_index%20%3D%20flavors.index%28'Gingersnap'%29%0Aflavors.remove%28'Molten%20Lava'%29%20%20%20%20%20%20%20%0Aflavors.append%28'Molten%20Lava'%29%20%20%20%20%20%0Afirst_element%20%3D%20flavors%5B0%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0Alast_element%20%3D%20flavors%5B-1%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0Aflavors_slice%20%3D%20flavors%5B1%3A3%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=9&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+[Run in Repl.it](https://repl.it/@bianca_ruiz/lists-1#main.py){: .btn }
 
 ## Indexing
 An index is the position of an element in a sequence (like a list). The first element is at index 0. Negative indexing begins at the last element with index -1. 
