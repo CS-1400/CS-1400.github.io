@@ -14,7 +14,7 @@
   - If you fork this repo for your own purposes, you will also be able to sync up automatically and get all the updated goodness (as a pull request for your review, of course). Follow the directions for creating your own automated upstream syncing [here](https://github.com/VitorNoVictor/fork-news/blob/main/README.md).
 
 ## Attributions
-- [just-the-docs](https://github.com/pmarsceill/just-the-docs) theme: [Patrick Marsceill](https://github.com/pmarsceill), GitHub Product Designer
+[just-the-docs](https://github.com/pmarsceill/just-the-docs) theme: [Patrick Marsceill](https://github.com/pmarsceill), GitHub Product Designer
 
 ## Copyright
 CS-1030 with Ruiz is © 2021 by Bianca Ruiz.
