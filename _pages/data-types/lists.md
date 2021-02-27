@@ -50,7 +50,7 @@ A slice is a piece of a sequence. It is defined by a starting index, a (non-incl
 [Run in Repl.it](https://repl.it/@bianca_ruiz/list-slicing#main.py){: .btn }
 
 ## Mutability
-Lists are mutable, which means you can change their individual elements after instantiation. 
+Lists are mutable, which means you can change any of their attributes after instantiation. 
 
 <iframe height="400px" width="100%" src="https://repl.it/@bianca_ruiz/list-mutability?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
