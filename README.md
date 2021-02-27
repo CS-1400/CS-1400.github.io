@@ -8,7 +8,7 @@
 - Website automatically redeploys with every push.
 - More pages can be added to the website by creating another page in the _pages directory.
   - Use an existing page as a template.
-- This repo is the "parent" of [CS-1400](https://github.com/CS-1400/CS-1400.github.io). All changes made here go "downhill" as well.
+- This repo is the "parent" of the [CS-1400](https://github.com/CS-1400/CS-1400.github.io) fork. All changes made here go "downhill" as well.
 
 ## Attributions
 - [just-the-docs](https://github.com/pmarsceill/just-the-docs) theme: [Patrick Marsceill](https://github.com/pmarsceill), GitHub Product Designer
