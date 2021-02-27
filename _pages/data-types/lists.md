@@ -23,7 +23,8 @@ Lists are simply a comma-separated sequence of elements, enclosed by square brac
 
 ## Example
 
-<iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/lists-1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe width="800" height="400" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=flavors%20%3D%20%5B'Lemon%20Glaze',%20'Pink%20Velvet',%20%0A'Gingersnap',%20'Molten%20Lava'%5D%0A%0Alength%20%3D%20len%28flavors%29%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0Ag_index%20%3D%20flavors.index%28'Gingersnap'%29%0Aflavors.remove%28'Molten%20Lava'%29%20%20%20%20%20%20%20%0Aflavors.append%28'Molten%20Lava'%29%20%20%20%20%20%0Afirst_element%20%3D%20flavors%5B0%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0Alast_element%20%3D%20flavors%5B-1%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0Aflavors_slice%20%3D%20flavors%5B1%3A3%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=9&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+[Run in Repl.it](https://repl.it/@bianca_ruiz/lists-1#main.py){: .btn }
 
 ## Indexing
 An index is the position of an element in a sequence (like a list). The first element is at index 0. Negative indexing begins at the last element with index -1. 
@@ -45,10 +46,11 @@ A slice is a piece of a sequence. It is defined by a starting index, a (non-incl
 | -1    |         | -1   | ```flavors[-1::-1]``` | ```['Molten Lava', 'Gingersnap', 'Pink Velvet', 'Lemon Glaze']``` |
 |       |         | 2    | ```flavors[::2]```    | ```['Lemon Glaze', 'Gingersnap']```                               |   
 
-<iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/list-slicing?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe width="800" height="650" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=flavors%20%3D%20%5B'Lemon%20Glaze',%20'Pink%20Velvet',%20%0A'Gingersnap',%20'Molten%20Lava'%5D%0A%0Aslice_1%20%3D%20flavors%5B2%3A4%5D%0Aslice_2%20%3D%20flavors%5B%3A3%5D%0Aslice_3%20%3D%20flavors%5B1%3A%5D%0Aslice_4%20%3D%20flavors%5B%3A%5D%0Aslice_5%20%3D%20flavors%5B-1%3A%3A-1%5D%0Aslice_6%20%3D%20flavors%5B%3A%3A2%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=8&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+[Run in Repl.it](https://repl.it/@bianca_ruiz/list-slicing#main.py){: .btn }
 
 ## Mutability
-After lists are created, you can change their individual elements: 
+Lists are mutable, which means you can change any of their attributes after instantiation. 
 
 <iframe height="400px" width="100%" src="https://repl.it/@bianca_ruiz/list-mutability?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
