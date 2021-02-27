@@ -26,15 +26,8 @@ A dictionary is a collection of key-value pairs enclosed by curly braces ({}). A
 [Run in Repl.it](https://repl.it/@bianca_ruiz/Dictionaries#main.py){: .btn}
 
 ## Keys
-Keys must be immutable data types!  
-
-## Header
-
-
+- Keys must be an immutable data types. Dictionaries, lists, and sets cannot be dictionary keys because they are mutable.
+- Keys must be unique. One dictionary cannot have two different keys by the same name. 
 
 ## Mutability
-meow: 
-
-<iframe></iframe>
-
-[Watch in PythonTutor](){: .btn }
+Dictionary keys, values, and number of items can all be changed after instantiation. 
