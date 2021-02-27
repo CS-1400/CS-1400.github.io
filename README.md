@@ -2,7 +2,7 @@
 > I created this website as a reference for my students as they complete their programming assignments.
 > 
 ## Want to contribute? Have an idea?
-- I am 100% open to ideas, requests, fixes, and code contributions. [Here's how](https://github.com/CS-1030/CS-1030.github.io/blob/main/CONTRIBUTING.md). 
+- I am 100% open to ideas, requests, fixes, and code contributions. [Here's how](https://github.com/CS-1400/CS-1400.github.io/blob/main/CONTRIBUTING.md). 
 
 ## Features
 - Website automatically redeploys with every new commit.
