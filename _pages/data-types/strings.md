@@ -23,7 +23,7 @@ Strings are simply a sequence of characters, enclosed by quotes.
 
 ## Example
 
-<iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/strings?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="700px" width="100%" src="https://repl.it/@bianca_ruiz/strings?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Indexing
 An index is the position of an element in a sequence. Indexing begins at 0 with the first element. Negative indexing begins at -1 with the last element. 
