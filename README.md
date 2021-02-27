@@ -1,4 +1,4 @@
-# CS-1030 Reference Website
+# CS-1030 Website
 > I created this website as a reference for my students as they complete their programming assignments.
 > 
 ## Want to contribute? Have an idea?
