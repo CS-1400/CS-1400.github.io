@@ -20,8 +20,5 @@ I'd love your input! I want to make contributing to this project as easy and tra
 ## License
 In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project. 
 
-## Report bugs using GitHub's [issues](https://github.com/CS-1030/CS-1030.github.io/issues)
-I use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/CS-1030/CS-1030.github.io/issues/new); it's that easy!
-
 ## References
 This document was adapted from the open-source contribution guidelines for [Facebook's Draft](https://github.com/facebook/draft-js/blob/a9316a723f9e918afde44dea68b5f9f39b7d9b00/CONTRIBUTING.md)
