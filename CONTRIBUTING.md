@@ -2,8 +2,8 @@
 I'd love your input! I want to make contributing to this project as easy and transparent as possible.
 
 ## Open an [issue](https://github.com/CS-1030/CS-1030.github.io/issues/new/choose) for:
-- Proposing new content
-- Proposing new features
+- Requesting new content
+- Requesting new features
 - Reporting anything incorrect
 - Reporting a bug
 - Discussing the current state of the code
