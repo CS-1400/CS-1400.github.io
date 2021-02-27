@@ -2,8 +2,8 @@
 I'd love your input! I want to make contributing to this project as easy and transparent as possible.
 
 ## Open an [issue](https://github.com/CS-1400/CS-1400.github.io/issues/new/choose) for:
-- Proposing new content
-- Proposing new features
+- Suggesting new content
+- Suggesting new features
 - Reporting anything incorrect
 - Reporting a bug
 - Discussing the current state of the code
