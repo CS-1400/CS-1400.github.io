@@ -1,16 +1,16 @@
 # Contributing
 I'd love your input! I want to make contributing to this project as easy and transparent as possible.
 
-## Open an [issue](https://github.com/CS-1030/CS-1030.github.io/issues/new/choose) for:
-- Requesting new content
-- Requesting new features
+## Open an [issue](https://github.com/CS-1400/CS-1400.github.io/issues/new/choose) for:
+- Suggesting new content
+- Suggesting new features
 - Reporting anything incorrect
 - Reporting a bug
 - Discussing the current state of the code
 - etc
 
-## Code Change Proposals 
-All code change proposals happen through pull requests, as per [Github Flow](https://guides.github.com/introduction/flow/index.html), so... 
+## Code Changes
+All code changes happen through pull requests, as per [Github Flow](https://guides.github.com/introduction/flow/index.html), so... 
 
 1. Fork the repo and create your branch from `main`.
 2. If you've added code that should be tested, add tests.
