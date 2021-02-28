@@ -24,7 +24,11 @@ A boolean expression is any logical statement that evaluates to either `True` or
 <iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/boolean?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Comparison Operators
-< 
+`<`, `<=`, `>`, `>=`, `==`, and `!=` are comparison operators. They compare 2 values and return a `True` or `False`. They can also be "chained" together:
+{% highlight python %}
+name > "a"
+17 < age < 26
+{% endhighlight %}
 
 ## Boolean Operators
 `and`, `or`, and `not` are boolean operators. They are used to change or combine the results of a boolean expression:
