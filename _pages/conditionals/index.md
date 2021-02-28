@@ -28,6 +28,10 @@ else:
 {% endhighlight %}
 - Conditionals are a control structure. They direct the order of execution of program statements.
 - Python Docs: [if Statments](https://docs.python.org/3/tutorial/controlflow.html#if-statements), [The if statement](https://docs.python.org/3/reference/compound_stmts.html#if), [Truth Value Testing](https://docs.python.org/3/library/stdtypes.html#truth-value-testing)
+## Composition
+1. `if`: A conditional must have only one `if` statement. It must have a boolean expression.
+2. `elif`: A conditonal can have 0 to infinity `elif` statements. It must have a boolean expression.
+3. `else`: A conditional can have 0 or 1 `else` statements. It must **never** have a boolean expression.
 
 ## Examples 
 #### if/else Statements
