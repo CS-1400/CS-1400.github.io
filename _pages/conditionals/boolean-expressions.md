@@ -34,3 +34,11 @@ name > "a"
 `and`, `or`, and `not` are boolean operators. They are used to change or combine the results of a boolean expression:
 {% highlight python %}age < 18 or age > 65
 age > 17 and age < 26{% endhighlight %}
+
+## Boolean Functions and Methods
+Methods and functions applied to variables can sometimes return a `True` or `False`:
+{% highlight python %}
+name.islower()
+name.isalpha()
+{% endhighlight %}
+
