@@ -31,8 +31,8 @@ else:
 
 ## Composition
 1. `if`: A conditional must have only one `if` statement. It must have a boolean expression.
-2. `elif`: A conditonal can have 0 to infinity `elif` statements. It must have a boolean expression.
-3. `else`: A conditional can have 0 or 1 `else` statements. It must **never** have a boolean expression.
+2. `elif`: A conditonal may have 0 to infinity `elif` statements. It must have a boolean expression.
+3. `else`: A conditional may have 0 or 1 `else` statements. It must **never** have a boolean expression.
 
 ## Examples 
 #### if/else Statements
