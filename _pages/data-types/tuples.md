@@ -51,7 +51,8 @@ A slice is a piece of a sequence. It is defined by a starting index, a (non-incl
 [Run in Repl.it](https://repl.it/@bianca_ruiz/list-slicing#main.py){: .btn }
 
 ## Immutability
-Tuples are immutable, which means you cannot change their attributes after instantiation. 
+- Tuples are immutable, which means you cannot change their attributes after instantiation. 
+- You can join one tuple to another tuple.
 
 <iframe></iframe>
 
