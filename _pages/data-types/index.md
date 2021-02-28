@@ -26,13 +26,14 @@ A specific category of data. Type defines what values the object can represent, 
 ## Built-in Types
 Below is a table of data types we'll learn and use most often in class.
 
-| Type 	| Principal Type 	| Mutability 	| Example  |
+| Type 	| Principal Type 	| Mutability 	| Order  | Example  |
 |-	|-	|-	|- |
-| ```str``` 	| Sequence 	| Immutable 	| ```'Ruiz'```, ```'15'``` |
-| ```int``` 	| Numeric 	| Immutable	| ```5```, ```10000``` |
-| ```float``` 	| Numeric 	| Immutable	| ```8.9```, ```900.0``` |
-| ```bool``` 	|  Comparison	| Immutable	| ```True```, ```False``` |
-| ```list``` 	|  Sequence	| Mutable	| ```[1,2,3]```, ```['and','or']``` |
-| ```tuple``` 	|  Sequence	| Immutable	| ```(1,2,3)```, ```('and','or)``` |
-| ```dict``` 	|  Mapping	| Mutable	| ```{'flavor': 'sugar', 'frosting': 'almond'}``` |
-| ```range``` 	|  Sequence	| Immutable	| ```range(10)``` |
+| ```str``` 	| Sequence 	| Immutable 	| Ordered 	| ```'Ruiz'```, ```'15'``` |
+| ```int``` 	| Numeric 	| Immutable	| n-a 	| ```5```, ```10000``` |
+| ```float``` 	| Numeric 	| Immutable	| n-a 	| ```8.9```, ```900.0``` |
+| ```bool``` 	|  Comparison	| Immutable	| n-a 	| ```True```, ```False``` |
+| ```list``` 	|  Sequence	| Mutable	| Ordered 	| ```[1,2,3]```, ```['and','or']``` |
+| ```tuple``` 	|  Sequence	| Immutable	| Ordered 	| ```(1,2,3)```, ```('and','or)``` |
+| ```set``` 	|  	| 	| Unordered 	| ```{1,2,3}```, ```{'and','or}``` |
+| ```dict``` 	|  Mapping	| Mutable	| Ordered 	| ```{'flavor': 'sugar', 'frosting': 'almond'}``` |
+| ```range``` 	|  Sequence	| Immutable	| Ordered 	| ```range(10)``` |
