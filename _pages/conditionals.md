@@ -26,9 +26,14 @@ else:
     execute_this
 {% endhighlight %}
 
-## Example
+## Examples
+#### Simple if/else Statement
+<iframe height="400px" width="100%" src="https://repl.it/@bianca_ruiz/simpleIfTaco?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+#### if/elif/else Statement
+<iframe height="400px" width="100%" src="https://repl.it/@bianca_ruiz/elifTaco?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+#### Compound if Statement
+<iframe height="400px" width="100%" src="https://repl.it/@bianca_ruiz/compoundIfTaco?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-<iframe></iframe>
 
 ## Section
 
