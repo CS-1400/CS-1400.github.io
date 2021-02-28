@@ -8,6 +8,7 @@
 - Website automatically redeploys with every push.
 - More pages can be added to the website by creating another page in the _pages directory.
   - Use an existing page as a template.
+  - If you'd like more customization, here's the [theme guide](https://pmarsceill.github.io/just-the-docs/)
 - Interactive code snippets are embedded html via [repl.it](https://repl.it/~). 
 - This repo is the "parent" of the [CS-1400](https://github.com/CS-1400/CS-1400.github.io) fork. All changes made here go "downhill" as well.
   - The fork autosyncs with this repo on a [set schedule](https://github.com/CS-1400/CS-1400.github.io/blob/5d96ab0aab5ba341a4c32d6387de9154f0e773d0/.github/workflows/fork-news.yml#L6). 
