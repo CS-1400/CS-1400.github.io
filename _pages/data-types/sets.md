@@ -14,7 +14,7 @@ parent: Data Types
 ---
 
 ## Description
-Sets are a comma-separated sequence of elements, enclosed by curly braces.
+Sets are a comma-separated collection of elements, enclosed by curly braces.
 - **Mutable**: Their individual elements can be changed.
 - **Unique**: Each element must be unique. Duplicate values will be eliminated automatically. 
 - **Unordered**: the elements are stored in no specific order. 
