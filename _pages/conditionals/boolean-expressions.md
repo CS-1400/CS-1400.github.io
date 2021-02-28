@@ -28,4 +28,4 @@ A boolean expression is any logical statement that evaluates to either `True` or
 
 ## Boolean Operators
 `and`, `or`, and `not` are boolean operators. They are used to change or combine the results of a boolean expression:
-{% highlight python %}9 print(f'Age under 18 or over 65: {age < 18 or age > 65}') {% endhighlight %}
+{% highlight python %}age < 18 or age > 65{% endhighlight %}
