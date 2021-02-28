@@ -17,6 +17,7 @@ parent: Data Types
 Strings are simply a sequence of characters, enclosed by quotes. 
 - **Immutable**: you cannot change the values of their individual characters.
 - **Index numbers** allow access to individual characters. 
+- **Ordered**: The characters are stored in a specific order.
 - Many different actions (methods and functions) can be performed on strings. 
 - Python Docs: [Strings](https://docs.python.org/3/tutorial/introduction.html#strings)
 - Python Docs: [Text Sequence Type](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
