@@ -18,7 +18,7 @@ A function is a premade block of code with a name. We call it by name to execute
   - **arguments**: the function's input; data given to the function enclosed within the parenthesis.
   - **return**: the function's output; data passed back to the line of code that called it.
 
-See: [Python Docs: Built-in Functions](https://docs.python.org/3/library/functions.html)
+See Python Docs: [Built-in Functions](https://docs.python.org/3/library/functions.html)
 
 
 ## Example
