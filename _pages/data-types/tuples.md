@@ -14,7 +14,7 @@ parent: Data Types
 ---
 
 ## Description
-Tuples are a comma-separated sequence of elements, enclosed by parenthesis.
+Tuples are a comma-separated sequence of elements, enclosed by parenthesis (or nothing).
 - **Immutable**: you cannot change their individual elements.
 - **Index numbers** allow access to individual elements. 
 - **Ordered**: the elements are stored in a specific order.
