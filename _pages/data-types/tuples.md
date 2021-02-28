@@ -19,8 +19,7 @@ Tuples are a comma-separated sequence of elements, enclosed by parenthesis (or n
 - **Index numbers** allow access to individual elements. 
 - **Ordered**: the elements are stored in a specific order.
 - There are not that many actions (methods and functions) that can be performed on tuples. 
-- Python Docs: [Tuples and Sequences](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)
-- Python Docs: [Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
+- Python Docs: [Tuples and Sequences](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences), [Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
 
 ## Example
 
