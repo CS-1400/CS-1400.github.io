@@ -46,7 +46,7 @@ A slice is a piece of a sequence. It is defined by a starting index, a (non-incl
 | -1    |         | -1   | ```flavors[-1::-1]``` | ```['Molten Lava', 'Gingersnap', 'Pink Velvet', 'Lemon Glaze']``` |
 |       |         | 2    | ```flavors[::2]```    | ```['Lemon Glaze', 'Gingersnap']```                               |   
 
-<iframe width="100%" height="650" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=flavors%20%3D%20%28'Lemon%20Glaze','Pink%20Velvet','Gingersnap','Molten%20Lava'%29%0A%0Aanother_flavor%20%3D%20'Birthday%20Cake',%0Aflavors%20%2B%3D%20another_flavor%0A%0Atuple1%20%3D%20flavors%5B2%3A4%5D%0Atuple2%20%3D%20flavors%5B%3A3%5D%0Atuple3%20%3D%20flavors%5B1%3A%5D%0Atuple4%20%3D%20flavors%5B%3A%5D%0Atuple5%20%3D%20flavors%5B-1%3A%3A-1%5D%0Atuple6%20%3D%20flavors%5B%3A%3A2%5D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=9&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+<iframe width="100%" height="650" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=flavors%20%3D%20%28'Lemon%20Glaze','Pink%20Velvet','Gingersnap','Molten%20Lava'%29%0A%0Aanother_flavor%20%3D%20'Birthday%20Cake',%0Aflavors%20%2B%3D%20another_flavor%0A%0Atuple1%20%3D%20flavors%5B2%3A4%5D%0Atuple2%20%3D%20flavors%5B%3A3%5D%0Atuple3%20%3D%20flavors%5B1%3A%5D%0Atuple4%20%3D%20flavors%5B%3A%5D%0Atuple5%20%3D%20flavors%5B-1%3A%3A-1%5D%0Atuple6%20%3D%20flavors%5B%3A%3A2%5D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=9&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 [Run in Repl.it](https://repl.it/@bianca_ruiz/tuple-slicing#main.py){: .btn }
 
 ## Immutability
