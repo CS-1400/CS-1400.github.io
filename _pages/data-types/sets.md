@@ -20,8 +20,7 @@ Sets are a comma-separated sequence of elements, enclosed by curly braces.
 - **Unordered**: the elements are stored in no specific order. 
     - Individual elements cannot be accessed via index numbers or keys.
 - There are many comparison-type actions that can be performed on sets. 
-- Python Docs: [Sets](https://docs.python.org/3/tutorial/datastructures.html#sets)
-- Python Docs: [Set Types](https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset)
+- Python Docs: [Sets](https://docs.python.org/3/tutorial/datastructures.html#sets), [Set Types](https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset)
 
 ## Examples
 
