@@ -17,9 +17,9 @@ parent: Data Types
 Strings are simply a sequence of characters, enclosed by quotes. 
 - **Immutable**: you cannot change the values of their individual characters.
 - **Index numbers** allow access to individual characters. 
+- **Ordered**: The characters are stored in a specific order.
 - Many different actions (methods and functions) can be performed on strings. 
-- Python Docs: [Strings](https://docs.python.org/3/tutorial/introduction.html#strings)
-- Python Docs: [Text Sequence Type](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
+- Python Docs: [Strings](https://docs.python.org/3/tutorial/introduction.html#strings), [Text Sequence Type](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
 
 ## Example
 
@@ -45,7 +45,7 @@ A slice is a piece of a string. It is defined by a starting index, a (non-inclus
 | -1    |         | -1   | ```flavor[-1::-1]``` | 'avaL netloM' |
 |       |         | 2    | ```flavor[::2]```    | 'Mle aa'      |      
 
-<iframe width="100%" height="400" frameborder="2" src="https://pythontutor.com/iframe-embed.html#code=flavor%20%3D%20'Molten%20Lava'%0A%0Aslice1%20%3D%20flavor%5B3%3A9%5D%20%20%20%20%20%20%20%20%20%20%20%0Aslice2%20%3D%20flavor%5B%3A6%5D%20%20%20%20%20%20%20%20%20%20%0Aslice3%20%3D%20flavor%5B7%3A%5D%20%20%20%20%20%20%20%20%20%20%0Aslice4%20%3D%20flavor%5B%3A%5D%20%20%20%20%20%20%20%20%20%20%20%20%0Aslice5%20%3D%20flavor%5B-1%3A%3A-1%5D%20%20%20%20%20%20%20%0Aslice6%20%3D%20flavor%5B%3A%3A2%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=6&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+<iframe width="100%" height="400" frameborder="2" src="https://pythontutor.com/iframe-embed.html#code=flavor%20%3D%20'Molten%20Lava'%0A%0Aslice1%20%3D%20flavor%5B3%3A9%5D%20%20%20%20%20%20%20%20%20%20%20%0Aslice2%20%3D%20flavor%5B%3A6%5D%20%20%20%20%20%20%20%20%20%20%0Aslice3%20%3D%20flavor%5B7%3A%5D%20%20%20%20%20%20%20%20%20%20%0Aslice4%20%3D%20flavor%5B%3A%5D%20%20%20%20%20%20%20%20%20%20%20%20%0Aslice5%20%3D%20flavor%5B-1%3A%3A-1%5D%20%20%20%20%20%20%20%0Aslice6%20%3D%20flavor%5B%3A%3A2%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 [Run on repl.it]("https://repl.it/@bianca_ruiz/string-slicing#main.py"){: .btn}
 
 ## Immutability

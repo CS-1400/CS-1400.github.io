@@ -17,13 +17,13 @@ parent: Data Types
 Lists are simply a comma-separated sequence of elements, enclosed by square brackets.
 - **Mutable**: you can change their individual elements.
 - **Index numbers** allow access to individual elements. 
+- **Ordered**: the elements are stored in a specific order.
 - Many different actions (methods and functions) can be performed on lists. 
-- Python Docs: [Lists](https://docs.python.org/3/tutorial/introduction.html#lists)
-- Python Docs: [Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
+- Python Docs: [Lists](https://docs.python.org/3/tutorial/introduction.html#lists), [Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
 
 ## Example
 
-<iframe width="800" height="400" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=flavors%20%3D%20%5B'Lemon%20Glaze',%20'Pink%20Velvet',%20%0A'Gingersnap',%20'Molten%20Lava'%5D%0A%0Alength%20%3D%20len%28flavors%29%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0Ag_index%20%3D%20flavors.index%28'Gingersnap'%29%0Aflavors.remove%28'Molten%20Lava'%29%20%20%20%20%20%20%20%0Aflavors.append%28'Molten%20Lava'%29%20%20%20%20%20%0Afirst_element%20%3D%20flavors%5B0%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0Alast_element%20%3D%20flavors%5B-1%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0Aflavors_slice%20%3D%20flavors%5B1%3A3%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=9&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+<iframe width="800" height="400" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=flavors%20%3D%20%5B'Lemon%20Glaze',%20'Pink%20Velvet',%20%0A'Gingersnap',%20'Molten%20Lava'%5D%0A%0Alength%20%3D%20len%28flavors%29%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0Ag_index%20%3D%20flavors.index%28'Gingersnap'%29%0Aflavors.remove%28'Molten%20Lava'%29%20%20%20%20%20%20%20%0Aflavors.append%28'Molten%20Lava'%29%20%20%20%20%20%0Afirst_element%20%3D%20flavors%5B0%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0Alast_element%20%3D%20flavors%5B-1%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0Aflavors_slice%20%3D%20flavors%5B1%3A3%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 [Run in Repl.it](https://repl.it/@bianca_ruiz/lists-1#main.py){: .btn }
 
 ## Indexing
@@ -46,7 +46,7 @@ A slice is a piece of a sequence. It is defined by a starting index, a (non-incl
 | -1    |         | -1   | ```flavors[-1::-1]``` | ```['Molten Lava', 'Gingersnap', 'Pink Velvet', 'Lemon Glaze']``` |
 |       |         | 2    | ```flavors[::2]```    | ```['Lemon Glaze', 'Gingersnap']```                               |   
 
-<iframe width="800" height="650" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=flavors%20%3D%20%5B'Lemon%20Glaze',%20'Pink%20Velvet',%20%0A'Gingersnap',%20'Molten%20Lava'%5D%0A%0Aslice_1%20%3D%20flavors%5B2%3A4%5D%0Aslice_2%20%3D%20flavors%5B%3A3%5D%0Aslice_3%20%3D%20flavors%5B1%3A%5D%0Aslice_4%20%3D%20flavors%5B%3A%5D%0Aslice_5%20%3D%20flavors%5B-1%3A%3A-1%5D%0Aslice_6%20%3D%20flavors%5B%3A%3A2%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=8&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+<iframe width="800" height="650" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=flavors%20%3D%20%5B'Lemon%20Glaze',%20'Pink%20Velvet',%20%0A'Gingersnap',%20'Molten%20Lava'%5D%0A%0Aslice_1%20%3D%20flavors%5B2%3A4%5D%0Aslice_2%20%3D%20flavors%5B%3A3%5D%0Aslice_3%20%3D%20flavors%5B1%3A%5D%0Aslice_4%20%3D%20flavors%5B%3A%5D%0Aslice_5%20%3D%20flavors%5B-1%3A%3A-1%5D%0Aslice_6%20%3D%20flavors%5B%3A%3A2%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 [Run in Repl.it](https://repl.it/@bianca_ruiz/list-slicing#main.py){: .btn }
 
 ## Mutability
