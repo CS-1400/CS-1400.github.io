@@ -19,8 +19,7 @@ Lists are simply a comma-separated sequence of elements, enclosed by square brac
 - **Index numbers** allow access to individual elements. 
 - **Ordered**: the elements are stored in a specific order.
 - Many different actions (methods and functions) can be performed on lists. 
-- Python Docs: [Lists](https://docs.python.org/3/tutorial/introduction.html#lists)
-- Python Docs: [Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
+- Python Docs: [Lists](https://docs.python.org/3/tutorial/introduction.html#lists), [Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
 
 ## Example
 
