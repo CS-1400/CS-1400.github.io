@@ -25,7 +25,7 @@ Tuples are a comma-separated sequence of elements, enclosed by parenthesis (or n
 ## Example
 
 <iframe> </iframe>
-[Run in Repl.it](https://repl.it/@bianca_ruiz/){: .btn }
+[Run in Repl.it](https://repl.it/@bianca_ruiz/tuples-1#main.py){: .btn }
 
 ## Indexing
 An index is the position of an element in a sequence. The first element is at index 0. Negative indexing begins at the last element with index -1. 
