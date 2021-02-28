@@ -34,6 +34,6 @@ Below is a table of data types we'll learn and use most often in class.
 | ```bool``` 	|  Comparison	| Immutable	| n-a 	| ```True```, ```False``` |
 | ```list``` 	|  Sequence	| Mutable	| Ordered 	| ```[1,2,3]```, ```['and','or']``` |
 | ```tuple``` 	|  Sequence	| Immutable	| Ordered 	| ```(1,2,3)```, ```('and','or)``` |
-| ```set``` 	|  	| 	| Unordered 	| ```{1,2,3}```, ```{'and','or}``` |
+| ```set``` 	|  Collection	| Mutable	| Unordered 	| ```{1,2,3}```, ```{'and','or}``` |
 | ```dict``` 	|  Mapping	| Mutable	| Ordered 	| ```{'flavor': 'sugar', 'frosting': 'almond'}``` |
 | ```range``` 	|  Sequence	| Immutable	| Ordered 	| ```range(10)``` |
