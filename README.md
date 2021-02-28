@@ -8,6 +8,7 @@
 - Website automatically redeploys with every new commit.
 - More pages can be added to the website by creating another page in the _pages directory.
   - Use an existing page as a template.
+  - If you'd like more customization, here's the [theme guide](https://pmarsceill.github.io/just-the-docs/)
 - Interactive code snippets are embedded html via [repl.it](https://repl.it/~). 
 - Automatically syncs with its parent repo ([CS-1030](https://github.com/CS-1030/CS-1030.github.io)) every Thursday night at 11pm UTC
   - The frequency and exact timing can be adjusted [here](https://github.com/CS-1400/CS-1400.github.io/blob/e3801251b0c36a5188c5e4eec6d3db3e329eef69/.github/workflows/fork-news.yml#L6)
