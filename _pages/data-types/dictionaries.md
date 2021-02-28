@@ -31,4 +31,4 @@ A dictionary is a collection of key-value pairs enclosed by curly braces ({}). A
 - Keys must be unique. One dictionary cannot have two different keys by the same name. 
 
 ## Mutability
-Dictionary keys, values, and number of items can all be changed after instantiation. 
+Dictionaries are mutable, which means their attributes can be changed after instantiation. 
