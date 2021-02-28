@@ -17,17 +17,17 @@ has_toc: false
 
 ## Description
 Conditionals allow our programs to make choices based on the result of analyzing certain information. In more technical terms, conditionals execute alternate sets of code (branches) based on the evaluation of a boolean expression.
-- Conditionals are a control structure. They direct the order of execution of program statements.
-- Python Docs: [if Statments](https://docs.python.org/3/tutorial/controlflow.html#if-statements), [The if statement](https://docs.python.org/3/reference/compound_stmts.html#if), [Truth Value Testing](https://docs.python.org/3/library/stdtypes.html#truth-value-testing)
 {% highlight Python %}
 if (boolean-expression):
     # this code block executes only if its boolean expression is TRUE
 elif (boolean-expression):
     # this code block executes only if the previous boolean expression is FALSE,
-    # -AND- the elif's boolean expression is TRUE
+    # and the elif's boolean expression is TRUE
 else:
     # This code block only executes if all previous boolean expressions were FALSE
 {% endhighlight %}
+- Conditionals are a control structure. They direct the order of execution of program statements.
+- Python Docs: [if Statments](https://docs.python.org/3/tutorial/controlflow.html#if-statements), [The if statement](https://docs.python.org/3/reference/compound_stmts.html#if), [Truth Value Testing](https://docs.python.org/3/library/stdtypes.html#truth-value-testing)
 
 ## Examples 
 #### if/else Statements
