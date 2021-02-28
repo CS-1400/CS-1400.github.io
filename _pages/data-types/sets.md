@@ -15,41 +15,19 @@ parent: Data Types
 
 ## Description
 Sets are a comma-separated sequence of elements, enclosed by curly braces.
-- **Immutable**: you cannot change their individual elements.
+- **Mutable**: Their individual elements can be changed.
 - **Unique**: Each element must be unique. Duplicate values will be eliminated automatically. 
 - **Unordered**: the elements are stored in no specific order. 
     - Individual elements cannot be accessed via index numbers or keys.
-- There are not that many actions (methods and functions) that can be performed on tuples. 
+- There are many comparison-type actions that can be performed on sets. 
 - Python Docs: [Sets](https://docs.python.org/3/tutorial/datastructures.html#sets)
 - Python Docs: [Set Types](https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset)
 
 ## Example
 
-<iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/tuples-1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe width="100%" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=flavors1%20%3D%20%7B'Lemon%20Glaze',%20'Pink%20Velvet',%20'Gingersnap',%20'Molten%20Lava'%7D%0Aflavors2%20%3D%20%7B'Molten%20Lava',%20'Birthday%20Cake'%7D%0A%0Aflavors1.add%28'Birthday%20Cake'%29%0A%0Aflavors_in_both%20%3D%20flavors1%20%26%20flavors2%0Aflavors_not_in_both%20%3D%20flavors1%20-%20flavors2%0A%0Aflavors1.discard%28'Lemon%20Glaze'%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=6&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
-## Indexing
-An index is the position of an element in a sequence. The first element is at index 0. Negative indexing begins at the last element with index -1. 
-
-![](/assets/list-index.png)
-
-## Slicing
-A slice is a piece of a sequence. It is defined by a starting index, a (non-inclusive) ending index, and a step value. If any of the three arguments to the slice are missing, the defaults are as follows:
-- Start: first character
-- End: last character
-- Step: 1 
-
-| Begin | End + 1 | Step | Code                  | Result                                                            |
-|-------|---------|------|-----------------------|-------------------------------------------------------------------|
-| 2     | 4       |      | ```flavors[2:4]```    | ```['Gingersnap', 'Molten Lava']```                               |
-|       | 3       |      | ```flavors[:3]```     | ```['Lemon Glaze', 'Pink Velvet', 'Gingersnap']```                |
-| 1     |         |      | ```flavors[1:]```     | ```['Pink Velvet', 'Gingersnap', 'Molten Lava']```                |
-|       |         |      | ```flavors[:]```      | ```['Lemon Glaze', 'Pink Velvet', 'Gingersnap', 'Molten Lava']``` |
-| -1    |         | -1   | ```flavors[-1::-1]``` | ```['Molten Lava', 'Gingersnap', 'Pink Velvet', 'Lemon Glaze']``` |
-|       |         | 2    | ```flavors[::2]```    | ```['Lemon Glaze', 'Gingersnap']```                               |   
-
-<iframe width="100%" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=flavors%20%3D%20%28'Lemon%20Glaze','Pink%20Velvet','Gingersnap','Molten%20Lava'%29%0A%0Aanother_flavor%20%3D%20'Birthday%20Cake',%0Aflavors%20%2B%3D%20another_flavor%0A%0Atuple1%20%3D%20flavors%5B2%3A4%5D%0Atuple2%20%3D%20flavors%5B%3A3%5D%0Atuple3%20%3D%20flavors%5B1%3A%5D%0Atuple4%20%3D%20flavors%5B%3A%5D%0Atuple5%20%3D%20flavors%5B-1%3A%3A-1%5D%0Atuple6%20%3D%20flavors%5B%3A%3A2%5D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=9&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
-[Run in Repl.it](https://repl.it/@bianca_ruiz/tuple-slicing#main.py){: .btn }
+<iframe height="500px" width="100%" src="https://repl.it/@bianca_ruiz/sets?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Immutability
-- Tuples are immutable, which means you cannot change their attributes after instantiation. 
-- You can join one tuple to another tuple.
+Sets are mutable, which means you can change their attributes after instantiation. 
