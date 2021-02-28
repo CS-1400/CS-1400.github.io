@@ -25,9 +25,9 @@ Sets are a comma-separated sequence of elements, enclosed by curly braces.
 
 ## Example
 
-<iframe width="100%" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=flavors1%20%3D%20%7B'Lemon%20Glaze',%20'Pink%20Velvet',%20'Gingersnap',%20'Molten%20Lava'%7D%0Aflavors2%20%3D%20%7B'Molten%20Lava',%20'Birthday%20Cake'%7D%0A%0Aflavors1.add%28'Birthday%20Cake'%29%0A%0Aflavors_in_both%20%3D%20flavors1%20%26%20flavors2%0Aflavors_not_in_both%20%3D%20flavors1%20-%20flavors2%0A%0Aflavors1.discard%28'Lemon%20Glaze'%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=6&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+<iframe width="100%" height="400" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=flavors1%20%3D%20%7B'Lemon%20Glaze',%20'Pink%20Velvet',%20'Gingersnap',%20'Molten%20Lava'%7D%0Aflavors2%20%3D%20%7B'Molten%20Lava',%20'Birthday%20Cake'%7D%0A%0Aflavors1.add%28'Birthday%20Cake'%29%0A%0Aflavors_in_both%20%3D%20flavors1%20%26%20flavors2%0Aflavors_not_in_both%20%3D%20flavors1%20-%20flavors2%0A%0Aflavors1.discard%28'Lemon%20Glaze'%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=6&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
-<iframe height="500px" width="100%" src="https://repl.it/@bianca_ruiz/sets?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/sets?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-## Immutability
+## Mutability
 Sets are mutable, which means you can change their attributes after instantiation. 
