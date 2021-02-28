@@ -17,7 +17,7 @@ parent: Data Types
 A dictionary is a collection of key-value pairs enclosed by curly braces ({}). A colon (:) separates each key from its value.
 - **Mutable**: you can change any of their attributes.
 - **Keys**, like index numbers, allow access to individual values. Keys must be unique and immutable.
-- **Ordered**: key/value pairs are stored in a dictionary in a specific order. (prior to Python v3.6 they were unordered)
+- **Ordered**: key/value pairs are stored in a dictionary in a specific order.
 - Many different actions (methods and functions) can be performed on dictionaries. 
 - Python Docs: [Dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
 - Python Docs: [Mapping Types](https://docs.python.org/3/library/stdtypes.html#typesmapping)
