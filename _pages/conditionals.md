@@ -26,11 +26,10 @@ else:
     execute_this
 {% endhighlight %}
 
-## if/else Statements
-The `if` keyword, followed by a boolean expression, is used to start a conditional statement. If the boolean expression is `True`, the code indented under the `if` statement will execute. 
-Optionally, an `else` statement can be included. The code indented under the `else` will only execute when the `if`'s boolean expression evaluates to `False`.
+## Examples 
+#### if/else Statements
 <iframe height="400px" width="100%" src="https://repl.it/@bianca_ruiz/simpleIfTaco?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-## elif Statements
+#### elif Statements
 <iframe height="400px" width="100%" src="https://repl.it/@bianca_ruiz/elifTaco?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 #### Compound if Statement
 <iframe height="400px" width="100%" src="https://repl.it/@bianca_ruiz/compoundIfTaco?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
