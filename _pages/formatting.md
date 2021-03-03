@@ -14,7 +14,7 @@ title: Formatting
 ---
 
 ## Description
-Formatted string literals (aka f-strings) are string literals that have an f at the beginning and curly braces containing expressions that will be replaced with their values. Use f-strings to format strings, ints, floats, etc.
+F-strings have an f at the beginning and curly braces containing expressions that will be replaced with their values. Use f-strings to format strings, ints, floats, etc.
 - Python Docs: [Formatted String Literals](https://docs.python.org/3/reference/lexical_analysis.html#f-strings), [Escape Sequences](https://docs.python.org/3/reference/lexical_analysis.html#literals)
 
 ## Example

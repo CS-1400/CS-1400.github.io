@@ -25,3 +25,21 @@ Run the program below, and enter non-numeric input at the prompt. Notice that th
 ### With exception handling
 Run the program below, and enter non-numeric input at the prompt. Compare the output with the previous program. 
 <iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/exception-handling?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+Below is an example that uses a loop to re-prompt the user for correct input, instead of ending the program:
+
+{% highlight python %}
+def main():
+    while True:
+        try:
+            quantity = int(input('How many cookies do you want? '))
+            break
+        except:
+            print('Please enter a whole number\n')
+            continue
+            
+    print(f'\nExcellent! Here are your {quantity} cookies...')
+        
+if __name__ == '__main__':
+    main()
+{% endhighlight %}
