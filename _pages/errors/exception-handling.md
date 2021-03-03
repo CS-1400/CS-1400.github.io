@@ -26,19 +26,7 @@ Run the program below, and enter non-numeric input at the prompt. Notice that th
 Run the program below, and enter non-numeric input at the prompt. Compare the output with the previous program. 
 <iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/exception-handling?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-An exception handling example without a loop:
-{% highlight python %}
-def main():
-    try:
-        quantity = int(input('How many cookies do you want? '))
-    except:
-        print('Input must be numeric. Ending program.')
-        return
-    print(f'\nExcellent! Here are your {quantity} cookies...')
-        
-if __name__ == '__main__':
-    main()
-{% endhighlight %}
+Below is an example that uses a loop to re-prompt the user for correct input, instead of ending the program:
 
 {% highlight python %}
 def main():
