@@ -14,7 +14,9 @@ title: Numbers
 ---
 
 ## Description
-The Python interpreter will automatically evaluate all expressions. The evaluation follows the normal "PEMDAS" order of operations.
+`int` is short for integer, which is a whole number. `float` is short for floating-point number, which is a number with a fractional part. There are many operations and methods that can be performed on numbers.
+- The Python interpreter will automatically evaluate all expressions. 
+- The evaluation follows the normal "PEMDAS" order of operations.
 - Python Docs: [Numeric Types](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex), [Operator Precedence](https://docs.python.org/3/reference/expressions.html#operator-precedence)
 - Python Modules: [math](https://docs.python.org/3/library/math.html), [statistics](https://docs.python.org/3/library/statistics.html), [random](https://docs.python.org/3/library/random.html)
 
