@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Operations on Numbers
+title: Numbers
 ---
 
-# Operations on Numbers
+# Numbers: int, float
 {: .no_toc }
 ## Table of contents
 {: .no_toc .text-delta }
