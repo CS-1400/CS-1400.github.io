@@ -29,9 +29,3 @@ I have created and deployed two "code bots" that live in our assignment reposito
 5. [SoloLearn Tutorials](https://www.sololearn.com/learning/1073): A free, high-quality, and interactive tutorial I often recommend to students.
 6. [GitHub](https://github.com/): A platform that hosts code remotely, allowing collaboration, automation, deployment, and more.
 7. [ZyBooks](https://learn.zybooks.com/library): Our official course textbook.
-
-### Copyright
-CS-1030 with Ruiz is &copy; {{ "now" | date: "%Y" }} by Bianca Ruiz.
-
-### License
-CS-1030 with Ruiz is distributed by an [MIT license](https://github.com/CS-1030/CS-1030.github.io/tree/master/LICENSE.txt).
