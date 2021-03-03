@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Numbers
+parent: Data Types
 ---
 
 # Numbers: int, float
