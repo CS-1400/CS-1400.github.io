@@ -33,3 +33,7 @@ print('That\'s my favorite cookie flavor!')
 | \t 	| Tab 	|
 | \n 	| Newline 	|
 | \\\ 	| Backslash 	|
+
+## Instructional Video
+
+<iframe width="373" height="210" src="https://www.youtube.com/embed/bQQqxysLIGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
