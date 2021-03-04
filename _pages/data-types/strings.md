@@ -56,3 +56,7 @@ Strings are immutable. This means once you instantiate them, you can't change th
 
 So, you **can** reassign an entire string, but you **cannot** reassign parts (individual elements) of a string.
 <iframe height="500px" width="100%" src="https://repl.it/@bianca_ruiz/string-immutability?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+## Instructional Video
+
+<iframe width="373" height="210" src="https://www.youtube.com/embed/tSebLz1hNpA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
