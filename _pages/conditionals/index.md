@@ -42,7 +42,7 @@ else:
 #### Compound if Statement
 <iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/compoundIfTaco?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-## Video Tutorials
+## Instructional Videos
 <iframe width="373" height="210" src="https://www.youtube.com/embed/5pPKYWqkoek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="373" height="210" src="https://www.youtube.com/embed/oYaGJBMoXok" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="373" height="210" src="https://www.youtube.com/embed/IBOHc87yFYw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
