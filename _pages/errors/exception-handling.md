@@ -43,3 +43,6 @@ def main():
 if __name__ == '__main__':
     main()
 {% endhighlight %}
+
+## Video Tutorial
+<iframe width="373" height="210" src="https://www.youtube.com/embed/HQqqNBZosn8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
