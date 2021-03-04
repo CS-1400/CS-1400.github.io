@@ -31,3 +31,7 @@ A dictionary is a collection of key-value pairs enclosed by curly braces ({}). A
 
 ## Mutability
 Dictionaries are mutable, which means their attributes can be changed after instantiation. 
+
+## Instructional Video
+
+<iframe width="373" height="210" src="https://www.youtube.com/embed/beA8IsY3mQs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
