@@ -41,3 +41,13 @@ else:
 <iframe height="550px" width="100%" src="https://repl.it/@bianca_ruiz/elifTaco?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe><br>
 #### Compound if Statement
 <iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/compoundIfTaco?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+## Video Tutorials
+- [Conditional Logic](https://youtu.be/5pPKYWqkoek) (4:53)
+- [Handling Multiple Conditions](https://youtu.be/oYaGJBMoXok) (5:57)
+- [Complex Conditions](https://youtu.be/IBOHc87yFYw) (4:09)
+
+## Embed Test
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5pPKYWqkoek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oYaGJBMoXok" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IBOHc87yFYw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
