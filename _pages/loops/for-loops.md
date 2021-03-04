@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lists
+title: For Loops
 parent: Loops
 ---
 # For Loops
