@@ -5,7 +5,7 @@ nav_order: 1
 description: "Home"
 ---
 
-# CS-1030 with Ruiz
+# CS-1400 with Ruiz
 {: .fs-9 }
 
 Welcome Students!
@@ -28,4 +28,3 @@ I have created and deployed two "code bots" that live in our assignment reposito
 4. [Repl.it](https://repl.it/~): An online, fully featured IDE that allows you to program anywhere you have internet access, even if you can't install software on your machine. 
 5. [SoloLearn Tutorials](https://www.sololearn.com/learning/1073): A free, high-quality, and interactive tutorial I often recommend to students.
 6. [GitHub](https://github.com/): A platform that hosts code remotely, allowing collaboration, automation, deployment, and more.
-7. [ZyBooks](https://learn.zybooks.com/library): Our official course textbook.
