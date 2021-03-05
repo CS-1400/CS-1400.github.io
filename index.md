@@ -20,7 +20,7 @@ I created this site as a reference for my students as they complete their progra
 - In the top menu, you can use the search bar to find specific information.
 
 ### Programming Feedback
-I have created and deployed two "code bots" that live in our assignment repositories on GitHub. Each time you submit (commit) your program, They both scan it for any possible errors. They will comment their observations and suggestions in the **Feedback** conversation, under the **Pull Request** tab.  I hope their instant and actionable feedback helps every one of my students with the most difficult part of programming: debugging.
+I have created and deployed two "code bots" that live in our assignment repositories on GitHub. Each time you submit (commit) your program, They both scan it for any possible errors. They will comment their observations and suggestions in the **Feedback** conversation, under the **Pull Request** tab.  I hope their instant and actionable feedback helps every one of my students with the most difficult part of programming: ***debugging***.
 
 ### Python Links
 1. [Python Docs](https://docs.python.org/3/): The definitive resource for anything and everything Python.
