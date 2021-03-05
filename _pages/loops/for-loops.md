@@ -14,3 +14,4 @@ parent: Loops
 ---
 
 ## Description
+- Python Docs: [for statements](https://docs.python.org/3/tutorial/controlflow.html#for-statements), [The for statement](https://docs.python.org/3/reference/compound_stmts.html#the-for-statement)
