@@ -18,7 +18,7 @@ Loops are a control structure. They direct the order of execution of program sta
 - `while` loops: Loop body will continue executing until a condition fails.
 - `for` loops:  Loop body will execute a specified number of times, or for each item of a container (ex: string). 
 
-## Python Control Structures:
+## Python Control Structures
 Loops are one of three program control structures. These control structures dictate the order in which a program's code executes:
 - **Sequential**: Code is executed linearly, one after the other.
 - **Selection**: Different block(s) of code are executed based on the results of a condition.
