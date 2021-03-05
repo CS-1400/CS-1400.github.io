@@ -14,9 +14,9 @@ has_toc: false
 
 ---
 ## Description
-Loops are a control structure. They direct the order of execution of program statements. Loops allow programmers to repeat a block of code several times. The Python language includes two types of loops, each used for specific purposes:
+Loops allow programmers to repeat a block of code several times. The Python language includes two types of loops, each used for specific purposes:
 - `while` loops: Loop body will continue executing until a condition fails.
-- `for` loops:  Loop body will execute a specified number of times, or for each item of a container (ex: string). 
+- `for` loops:  Loop body will execute a specified number of times, or for each item of a container (like characters in a string). 
 
 ## Python Control Structures
 Loops are one of three program control structures. These control structures dictate the order in which a program's code executes:
