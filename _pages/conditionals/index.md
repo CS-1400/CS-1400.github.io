@@ -23,7 +23,7 @@ Conditionals allow our programs to make choices based on the result of analyzing
 Conditionals are one of three program control structures. These control structures dictate the order in which a program's code executes:
 - **Sequential**: Code is executed linearly, one after the other.
 - **Selection**: Different block(s) of code are executed based on the results of a condition.
-- **Iteration**: Repeating a block of code several times.
+- [**Iteration**](https://cs-1030.github.io/_pages/loops/): Repeating a block of code several times.
 
 ## Composition
 1. `if`: A conditional must have only one `if` statement. It must have a boolean expression.
