@@ -55,3 +55,7 @@ Lists are mutable, which means you can change any of their attributes after inst
 <iframe height="400px" width="100%" src="https://repl.it/@bianca_ruiz/list-mutability?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 [Watch in PythonTutor](http://www.pythontutor.com/visualize.html#code=def%20main%28%29%3A%0A%20%20%20%20%0A%20%20%20%20flavors%20%3D%20%5B'Lemon%20Glaze',%20'Pink%20Velvet',%20'Gingersnap',%20'Molten%20Lava'%5D%0A%20%20%20%20flavors%5B2%5D%20%3D%20'Strawberry%20Poptart'%0A%20%20%20%20print%28flavors%29%0A%0Aif%20__name__%20%3D%3D%20'__main__'%3A%0A%20%20%20%20main%28%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false){: .btn }
+
+## Instructional Video
+
+<iframe width="373" height="210" src="https://www.youtube.com/embed/beA8IsY3mQs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
