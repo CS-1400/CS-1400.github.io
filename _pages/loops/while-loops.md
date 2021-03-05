@@ -20,6 +20,9 @@ parent: Loops
 
 <iframe height="400px" width="100%" src="https://repl.it/@bianca_ruiz/whileTacos?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-# Infinite Loops
+## Infinite Loops
+An *infinite loop* is a common error with that occurs when a while is never given the opportunity to fail. The loop below is an infinite loop, because the **cash** variable is never decremented. Therefore, the condition never changes and will remain true.
+
+Run the program below, and observe the infinite loop. Then, paste `cash -= taco_price` on line 6 and run the program again. 
 
 <iframe height="400px" width="100%" src="https://repl.it/@bianca_ruiz/whileInfinite?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
