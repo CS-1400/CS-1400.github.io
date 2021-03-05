@@ -14,3 +14,4 @@ parent: Loops
 ---
 
 ## Description
+- Python Docs: [The while statement](https://docs.python.org/3/reference/compound_stmts.html#the-while-statement)
