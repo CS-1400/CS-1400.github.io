@@ -33,8 +33,8 @@ Conditionals are one of three program control structures. These control structur
 if (boolean-expression):
     # this code block executes only if its boolean expression is TRUE
 elif (boolean-expression):
-    # this code block executes only if the previous boolean expression is FALSE,
-    # and the elif's boolean expression is TRUE
+    # this code block executes only if all previous boolean expression were FALSE,
+    # but this elif's boolean expression is TRUE
 else:
     # This code block only executes if all previous boolean expressions were FALSE
 {% endhighlight %}
