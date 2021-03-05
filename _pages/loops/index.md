@@ -21,7 +21,7 @@ Loops allow programmers to repeat a block of code several times. The Python lang
 ## Python Control Structures
 Loops are one of three program control structures. These control structures dictate the order in which a program's code executes:
 - **Sequential**: Code is executed linearly, one after the other.
-- **Selection**: Different block(s) of code are executed based on the results of a condition.
+- [**Selection**](https://cs-1030.github.io/_pages/conditionals/): Different block(s) of code are executed based on the results of a condition.
 - **Iteration**: Repeating a block of code several times.
 
 ## Video Tutorials
