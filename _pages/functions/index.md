@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Functions
+has_children: true
+has_toc: false
 ---
 
 # Functions
