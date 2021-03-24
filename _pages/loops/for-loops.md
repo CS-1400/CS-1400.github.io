@@ -25,7 +25,7 @@ for loop_variable in range(15):
     # this code block executes the specific number of times indicated in the range function argument
 
 for loop_variable in container_variable:
-    # this code block executes on each item in the container variable
+    # this code block executes for each item in the container variable
 {% endhighlight %}
 
 ## Example 1: Items in a container
