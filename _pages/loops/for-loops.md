@@ -17,6 +17,11 @@ parent: Loops
 For loops are used to execute a block of code a specific number of times, or on each element of a container (such as characters in a string or objects in a list). It executes a pre-defined, finite amount of times. No more, no less.
 - Python Docs: [for statements](https://docs.python.org/3/tutorial/controlflow.html#for-statements), [The for statement](https://docs.python.org/3/reference/compound_stmts.html#the-for-statement)
 
+## Composition
+This loop always begins with the `for` keyword, followed by an arbitrary variable name(s). This is followed by the `in` keyword, and either a pre-defined container variable (string, list, set, etc) -or- the `range` function:
+
+
+
 ## Example 1: Items in a container
 
 <iframe height="400px" width="100%" src="https://replit.com/@bianca_ruiz/forflavors?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
