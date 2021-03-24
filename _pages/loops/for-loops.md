@@ -44,3 +44,7 @@ The program illustrated below will execute the number of times specified in the 
 With each new iteration of the loop, the next number from the range function is stored in the loop variable before the code block is executed. The loop will end execution once it has executed the specific number of times indicated in the `range` function:
 <iframe width="100%" height="350" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=for%20number%20in%20range%285%29%3A%0A%20%20%20%20print%28f'This%20is%20iteration%20number%20%7Bnumber%2B1%7D'%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
+### Enumerate
+Applying the `enumerate` function to a for loop adds a number to each item in the container. In order to "catch" this addtional variable (the number), you add a second loop variable to the for loop. The `enumerate` function combined with a for loop is commonly used to store the index number of each item:
+
+
