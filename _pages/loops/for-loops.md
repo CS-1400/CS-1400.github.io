@@ -46,5 +46,6 @@ With each new iteration of the loop, the next number from the range function is 
 
 ### Enumerate
 Applying the `enumerate` function to a for loop adds a number to each item in the container. In order to "catch" this addtional variable (the number), you add a second loop variable to the for loop. The `enumerate` function combined with a for loop is commonly used to store the index number of each item:
-
+<iframe height="400px" width="100%" src="https://replit.com/@bianca_ruiz/forenumerate?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe width="800" height="500" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=flavors%20%3D%20%5B'Lemon%20Glaze',%20'Pink%20Velvet',%20'Gingersnap',%20'Molten%20Lava'%5D%0A%0Afor%20index,%20flavor%20in%20enumerate%28flavors%29%3A%0A%20%20%20%20print%28f'Index%20%7Bindex%7D%20of%20the%20flavors%20list%20is%20%7Bflavor%7D'%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
