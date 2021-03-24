@@ -18,6 +18,9 @@ Loops allow programmers to repeat a block of code several times. The Python lang
 - `while` loops: Loop body will continue executing until a condition fails.
 - `for` loops:  Loop body will execute a specified number of times, or for each item of a container (like characters in a string). 
 
+## Looping Techniques
+Python docs has outlined many useful patterns to use when looping over sequences and dictionairies: [Looping Techniques](https://docs.python.org/3/tutorial/datastructures.html#looping-techniques)
+
 ## Python Control Structures
 Loops are one of three program control structures. These control structures dictate the order in which a program's code executes:
 - **Sequential**: Code is executed linearly, one after the other.

@@ -14,6 +14,7 @@ parent: Loops
 ---
 
 ## Description
+While loops are used to execute a block of code until a condition fails.
 - Python Docs: [The while statement](https://docs.python.org/3/reference/compound_stmts.html#the-while-statement)
 
 ## Examples
