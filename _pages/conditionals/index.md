@@ -19,12 +19,6 @@ has_toc: false
 Conditionals allow our programs to make choices based on the result of analyzing certain information. In more technical terms, conditionals execute alternate sets of code (branches) based on the evaluation of a boolean expression.
 - Python Docs: [if Statments](https://docs.python.org/3/tutorial/controlflow.html#if-statements), [The if statement](https://docs.python.org/3/reference/compound_stmts.html#if), [Truth Value Testing](https://docs.python.org/3/library/stdtypes.html#truth-value-testing)
 
-## Python Control Structures
-Conditionals are one of three program control structures. These control structures dictate the order in which a program's code executes:
-- **Sequential**: Code is executed linearly, one after the other.
-- **Selection**: Different block(s) of code are executed based on the results of a condition.
-- [**Iteration**](../loops/): Repeating a block of code several times.
-
 ## Composition
 1. `if`: A conditional must have only one `if` statement. It must have a boolean expression.
 2. `elif`: A conditonal may have 0 to infinity `elif` statements. It must have a boolean expression.
@@ -46,6 +40,12 @@ else:
 <iframe height="550px" width="100%" src="https://repl.it/@bianca_ruiz/elifTaco?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe><br>
 #### Compound if Statement
 <iframe height="600px" width="100%" src="https://repl.it/@bianca_ruiz/compoundIfTaco?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+## Python Control Structures
+Conditionals are one of three program control structures. These control structures dictate the order in which a program's code executes:
+- **Sequential**: Code is executed linearly, one after the other.
+- **Selection**: Different block(s) of code are executed based on the results of a condition.
+- [**Iteration**](../loops/): Repeating a block of code several times.
 
 ## Instructional Videos
 
