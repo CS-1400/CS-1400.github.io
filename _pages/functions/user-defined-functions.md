@@ -14,5 +14,16 @@ parent: Functions
 ---
 
 ## Description
-User-defined functions are custom functions defined by a programmer. After they are defined, they can be executed by calling their name.
+User-defined functions are custom functions defined by a programmer. After they are defined, they can be executed by calling their name. Functions are not executed when they are defined.
 
+## Composition
+{% highlight Python %}
+def function_name(parameter1, parameter2):
+    # function code indented under definition
+    # more function code
+    # even more function code
+
+function_name(argument1, argument2)
+{% endhighlight %}
+
+## Example
