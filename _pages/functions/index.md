@@ -27,7 +27,8 @@ See Python Docs: [Built-in Functions](https://docs.python.org/3/library/function
 2. User-defined functions: These are custom functions defined by a programmer. After the programmer defines a custom function, the function can be invoked by its name.
 3. Imported functions: These functions are written in a module (aka python file) other than the file you are creating. You can import that module into your python file with an `import` statement.
 
-## Example
+## Examples
+Choose an option from the menu to the left to see examples of different types of functions.
 
 <iframe height="400px" width="100%" src="https://repl.it/@bianca_ruiz/built-in-functions?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
