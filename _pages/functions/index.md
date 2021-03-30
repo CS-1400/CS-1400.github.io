@@ -27,6 +27,3 @@ A function is a prewritten block of code with a name. A function is invoked by c
 
 ## Examples
 Choose an option from the menu to the left.
-
-## Built-in Functions
-Below is a table of functions we'll learn and use most in CS-1030. 
