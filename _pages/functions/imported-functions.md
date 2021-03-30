@@ -20,9 +20,21 @@ You can access functions written in other python files ("modules") by importing 
 ## Structure
 The `import` statement(s) are **always** the first line(s) of code in your program (after your docstring). No other code should be written before them.
 There are three different ways to import functions from modules:
-- `import module`: Creates a reference to the module only. Function names must be preceded by the module name then the dot operator, but you can call any function inside the module. (*this method reduces the readability of your code*).
-- `from module import function(s)`: Creates references only to the specific function(s) you list. You can only call the functions listed, but the function names do not need to be preceded by the module name. This method is best practice.
-- `from module import *`: Creates references to all functions in a module, and the function names do not need to be lpreceded by the module name. This method clutters the namespace.
+- `import module`
+  - Creates a reference to the module only. 
+  - Function names must be preceded by the module name then the dot operator.
+  - You can call any function inside the module. 
+  - This method reduces the readability of your code.
+- `from module import *`
+  - Creates references to all functions in a module
+  - Function names do not need to be preceded by the module name. 
+  - You can call any function inside the module.
+  - This method clutters the namespace.
+- `from module import function(s)`
+  - Creates references only to the specific function(s) you list. 
+  - Function names do not need to be preceded by the module name. 
+  - You can only call the functions you list in the import statement.
+  - This method is best practice.
 
 ## Examples
 
