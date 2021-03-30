@@ -24,7 +24,6 @@ When invoking (calling/executing) a function, you type it's name followed by ope
 
 ## Example
 <iframe height="400px" width="100%" src="https://replit.com/@bianca_ruiz/builtin-functions?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 #### Line 1
 - Function: `input`
 - Arguments: `'Hi! What\'s your name? '`
