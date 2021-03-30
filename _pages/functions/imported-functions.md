@@ -43,8 +43,11 @@ There are three different ways to import functions from modules:
 {% highlight Python %} 
 import random
 
-number = random.randint(1,10)   # must include module name in function call
-print(number)
+random_int = random.randint(1,10) 
+random_float = random.random()
+
+print(random_int)
+print(random_float)
 {% endhighlight %}
 
 ### `from module import function(s)`
@@ -52,8 +55,9 @@ print(number)
 {% highlight Python %} 
 from random import randint
 
-number = randint(1,10)   # do not include module name in function call
-print(number)
+random_int = randint(1,10) 
+
+print(random_int)
 {% endhighlight %}
 
 ### `from module import *`
@@ -61,7 +65,9 @@ print(number)
 {% highlight Python %} 
 from random import *
 
-number = randint(1,10)   # do not include module name in function call
+number = randint(1,10)
 number2 = random()
-print(number)
+
+print(random_int)
+print(random_float)
 {% endhighlight %}
