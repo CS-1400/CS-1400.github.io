@@ -14,3 +14,5 @@ parent: Functions
 ---
 
 ## Description
+User-defined functions are custom functions defined by a programmer. After they are defined, they can be executed by calling their name.
+
