@@ -26,4 +26,4 @@ A function is a prewritten block of code with a name. A function is invoked by c
 3. Imported functions: These functions are written in a module (aka python file) other than the file you are creating. You can import that module into your python file with an `import` statement.
 
 ## Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8T5acEwfJbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height="400px" width="100%" src="https://www.youtube.com/embed/8T5acEwfJbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
