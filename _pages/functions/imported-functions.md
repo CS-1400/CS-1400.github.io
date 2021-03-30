@@ -20,11 +20,36 @@ You can access functions written in other python files ("modules") by importing 
 ## Structure
 The `import` statement(s) are **always** the first line(s) of code in your program (after your docstring). No other code should be written before them.
 There are three different ways to import functions from modules:
-- `import module`: imports a reference to the module. The module's function names must be fully qualified. Not the best method for imports, as it clutters the namespace and reduces readability of your code.
-- `from module import function(s)`: Imports only the function(s) listed from the module. The function names do not need to be fully qualified.
-- `from module import *`: Imports all functions from a module. The function names do not need to be fully qualified. Not the best method when considering memory usage.
+- `import module`: Creates a reference to the module only. Function names must be preceded by the module name then the dot operator, but you can call any function inside the module. (*this method reduces the readability of your code*).
+- `from module import function(s)`: Creates references only to the specific function(s) you list. You can only call the functions listed, but the function names do not need to be preceded by the module name. This method is best practice.
+- `from module import *`: Creates references to all functions in a module, and the function names do not need to be lpreceded by the module name. This method clutters the namespace.
 
 ## Examples
+
 ### `import module`
+
+{% highlight Python %} 
+import random
+
+number = random.randint(1,10)   # must include module name in function call
+print(number)
+{% endhighlight %}
+
 ### `from module import function(s)`
+
+{% highlight Python %} 
+from random import randint
+
+number = randint(1,10)   # do not include module name in function call
+print(number)
+{% endhighlight %}
+
 ### `from module import *`
+
+{% highlight Python %} 
+from random import *
+
+number = randint(1,10)   # do not include module name in function call
+number2 = random()
+print(number)
+{% endhighlight %}
