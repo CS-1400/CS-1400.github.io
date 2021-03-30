@@ -47,9 +47,10 @@ print(random_int)
 print(random_float)
 {% endhighlight %}
 
-#### from module import function(s) {% highlight Python %}from random import randint
+#### from module import function(s) {% highlight Python %}from random import randint, random
 
 random_int = randint(1,10) 
+random_float = random()
 
 print(random_int)
 {% endhighlight %}
