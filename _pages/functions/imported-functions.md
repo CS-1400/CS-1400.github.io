@@ -38,7 +38,8 @@ There are three different ways to import functions from modules:
 
 ## Examples
 
-#### import module {% highlight Python %}import random
+#### import module 
+{% highlight Python %}import random
 
 random_int = random.randint(1,10) 
 random_float = random.random()
@@ -47,7 +48,8 @@ print(random_int)
 print(random_float)
 {% endhighlight %}
 
-#### from module import function(s) {% highlight Python %}from random import randint, random
+#### from module import function(s)
+{% highlight Python %}from random import randint, random
 
 random_int = randint(1,10) 
 random_float = random()
@@ -55,7 +57,8 @@ random_float = random()
 print(random_int)
 {% endhighlight %}
 
-#### from module import * {% highlight Python %}from random import *
+#### from module import * 
+{% highlight Python %}from random import *
 
 number = randint(1,10)
 number2 = random()
