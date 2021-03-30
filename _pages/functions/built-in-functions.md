@@ -14,7 +14,7 @@ parent: Functions
 ---
 
 ## Description
-Built-in functions are pre-installed with the Python language. They do not need to be imported or created by the programmer. Common built-in functions are `print()`, `input()`, and `length()`
+Built-in functions are pre-installed with the Python language. They do not need to be imported or created by the programmer. Common built-in functions are `print()`, `input()`, and `len()`
 - Python Docs: [Built-in Functions](https://docs.python.org/3/library/functions.html)
 
 ## Invocation
