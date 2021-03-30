@@ -28,29 +28,29 @@ When invoking (calling/executing) a function, you type it's name followed by ope
 #### Line 1
 
 - Function: `input`
-- Arguments: `'Hi! What\'s your name? '`
+- Argument(s): `'Hi! What\'s your name? '`
 - Return Value: User input is stored in the variable `name`
 
 #### Line 2
 
 - Function: `print`
-- Arguments: n-a
+- Argument(s): n-a
 - Return Value: n-a
 
 #### Line 3
 
 - Function: `print`
-- Arguments: `f'Nice to meet you, {name.title()}.'`
+- Argument(s): `f'Nice to meet you, {name.title()}.'`
 - Return Value: n-a
 
 #### Line 4
 
 - Function: `len`
-- Arguments: `name` (a variable)
+- Argument(s): `name` (a variable)
 - Return Value: length of variable, stored in the variable `characters`
 
 #### Line 5
 
 - Function: `print`
-- Arguments: `f'Your name has {len(name)} characters.'`
+- Argument(s): `f'Your name has {len(name)} characters.'`
 - Return Value: n-a
