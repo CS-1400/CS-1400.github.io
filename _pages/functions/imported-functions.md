@@ -22,17 +22,17 @@ The `import` statement(s) are **always** the first line(s) of code in your progr
 There are three different ways to import functions from modules:
 - `import module_name`
   - Creates a reference to the module only. 
-  - Function names must be preceded by the module name then the dot operator.
+  - Function names in your program must be preceded by the module name then the dot operator.
   - You can call any function inside the module. 
   - This method reduces the readability of your code.
 - `from module_name import *`
   - Creates references to all functions in a module
-  - Function names do not need to be preceded by the module name. 
+  - Function names in your program do not need to be preceded by the module name. 
   - You can call any function inside the module.
   - This method clutters the namespace.
 - `from module_name import function1, function2`
   - Creates references only to the specific function(s) you list. 
-  - Function names do not need to be preceded by the module name. 
+  - Function names in your program do not need to be preceded by the module name. 
   - You can only call the functions you list in the import statement.
   - This method is best practice.
 
