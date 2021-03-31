@@ -30,7 +30,7 @@ There are three different ways to import functions from modules:
   - Function names do not need to be preceded by the module name. 
   - You can call any function inside the module.
   - This method clutters the namespace.
-- `from module import function(s)`
+- `from module import function1, function2`
   - Creates references only to the specific function(s) you list. 
   - Function names do not need to be preceded by the module name. 
   - You can only call the functions you list in the import statement.
