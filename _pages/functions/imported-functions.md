@@ -20,7 +20,11 @@ You can access functions written in other python files ("modules") by importing 
 ## Import Statement
 The `import` statement(s) are **always** the first line(s) of code in your program (after your docstring). No other code should be written before them.
 There are three different ways to import functions from modules:
-### `import module_name`
+- `import module_name`
+- `from module_name import *`
+- `from module_name import function1, function2`
+
+## `import module_name`
 - Creates a reference to the module only. 
 - Function names in your program must be preceded by the module name then the dot operator.
 - You can call any function inside the module. 
@@ -35,7 +39,7 @@ print(random_int)
 print(random_float)
 {% endhighlight %}
 
-### `from module_name import *`
+## `from module_name import *`
 - Creates references to all functions in a module
 - Function names in your program do not need to be preceded by the module name. 
 - You can call any function inside the module.
@@ -50,7 +54,7 @@ print(random_int)
 print(random_float)
 {% endhighlight %}
 
-### `from module_name import function1, function2`
+## `from module_name import function1, function2`
 - Creates references only to the specific function(s) you list. 
 - Function names in your program do not need to be preceded by the module name. 
 - You can only call the functions you list in the import statement.
@@ -63,5 +67,3 @@ random_float = random()
 
 print(random_int)
 {% endhighlight %}
-
-
