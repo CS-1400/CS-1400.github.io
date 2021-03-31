@@ -27,5 +27,7 @@ A function is a prewritten block of code with a name. A function is invoked by c
 
 ## Instructional Videos
 <iframe width="373" height="210" src="https://www.youtube.com/embed/8T5acEwfJbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
 <iframe width="373" height="210" src="https://www.youtube.com/embed/nrCAxXfRU28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
 <iframe width="373" height="210" src="https://www.youtube.com/embed/sKW-zdYZNX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
