@@ -30,14 +30,7 @@ There are three different ways to import functions from modules:
 - You can call any function inside the module. 
 - This method reduces the readability of your code.
 
-{% highlight Python %}import random
-
-random_int = random.randint(1,10) 
-random_float = random.random()
-
-print(random_int)
-print(random_float)
-{% endhighlight %}
+<iframe width="100%" height="600" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=import%20random%0A%0Anumber1%20%3D%20random.randint%281,10%29%0Anumber2%20%3D%20random.random%28%29%0A%0Aprint%28number1%29%0Aprint%28number2%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 ## `from module_name import *`
 - Creates references to all functions in a module
@@ -45,14 +38,7 @@ print(random_float)
 - You can call any function inside the module.
 - This method clutters the namespace.
 
-{% highlight Python %}from random import *
-
-number = randint(1,10)
-number2 = random()
-
-print(random_int)
-print(random_float)
-{% endhighlight %}
+<iframe width="100%" height="600" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=from%20random%20import%20*%0A%0Anumber1%20%3D%20randint%281,10%29%0Anumber2%20%3D%20random%28%29%0A%0Aprint%28number1%29%0Aprint%28number2%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 ## `from module_name import function1, function2`
 - Creates references only to the specific function(s) you list. 
@@ -60,10 +46,4 @@ print(random_float)
 - You can only call the functions you list in the import statement.
 - This method is best practice.
 
-{% highlight Python %}from random import randint, random
-
-random_int = randint(1,10) 
-random_float = random()
-
-print(random_int)
-{% endhighlight %}
+<iframe width="100%" height="600" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=from%20random%20import%20randint,%20random%0A%0Anumber1%20%3D%20randint%281,10%29%0Anumber2%20%3D%20random%28%29%0A%0Aprint%28number1%29%0Aprint%28number2%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
