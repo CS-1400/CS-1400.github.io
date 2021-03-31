@@ -36,9 +36,7 @@ There are three different ways to import functions from modules:
   - You can only call the functions you list in the import statement.
   - This method is best practice.
 
-## Examples
-
-#### import module 
+## `import module_name` 
 {% highlight Python %}import random
 
 random_int = random.randint(1,10) 
@@ -48,7 +46,7 @@ print(random_int)
 print(random_float)
 {% endhighlight %}
 
-#### from module import function(s)
+## `from module_name import function1, function2`
 {% highlight Python %}from random import randint, random
 
 random_int = randint(1,10) 
@@ -57,7 +55,7 @@ random_float = random()
 print(random_int)
 {% endhighlight %}
 
-#### from module import * 
+## `from module_name import *` 
 {% highlight Python %}from random import *
 
 number = randint(1,10)
