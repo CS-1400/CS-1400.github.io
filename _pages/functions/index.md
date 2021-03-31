@@ -26,6 +26,6 @@ A function is a prewritten block of code with a name. A function is invoked by c
 3. Imported functions: These functions are written in a module (aka python file) other than the file you are creating. An `import` statement at the top of your program allows you to use all the functions in that file (module).
 
 ## Instructional Videos
-<iframe height="400px" width="100%" src="https://www.youtube.com/embed/8T5acEwfJbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe height="400px" width="100%" src="https://www.youtube.com/embed/nrCAxXfRU28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe height="400px" width="100%" src="https://www.youtube.com/embed/sKW-zdYZNX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="373" height="210" src="https://www.youtube.com/embed/8T5acEwfJbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="373" height="210" src="https://www.youtube.com/embed/nrCAxXfRU28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="373" height="210" src="https://www.youtube.com/embed/sKW-zdYZNX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
