@@ -20,9 +20,9 @@ You can access functions written in other python files ("modules") by importing 
 ## Import Statement
 The `import` statement(s) are **always** the first line(s) of code in your program (after your docstring). No other code should be written before them.
 There are three different ways to import functions from modules:
-1. *import module_name*
-2. *from module_name import * *
-3. *from module_name import function1, function2*
+1. import module_name
+2. from module_name import *
+3. from module_name import function1, function2
 
 ## `import module_name`
 - Creates a reference to the module only. 
