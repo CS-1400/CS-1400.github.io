@@ -29,7 +29,7 @@ When invoking (calling/executing) a function, you type it's name followed by ope
 
 - Function: `input`
 - Argument(s): `'Hi! What\'s your name? '`
-- Return Value: User input is stored in the variable `name`
+- Return Value: User input
 
 #### Line 2
 
@@ -47,10 +47,10 @@ When invoking (calling/executing) a function, you type it's name followed by ope
 
 - Function: `len`
 - Argument(s): `name` (a variable)
-- Return Value: length of variable, stored in the variable `characters`
+- Return Value: length of variable
 
 #### Line 5
 
 - Function: `print`
-- Argument(s): `f'Your name has {len(name)} characters.'`
+- Argument(s): `f'Your name has {characters} characters.'`
 - Return Value: n-a
