@@ -15,4 +15,7 @@ parent: Command Line Interface
 ---
 
 ## Description
-A b
+You can easily execute your Python programs directly from the command line. First, navigate to the directory the `.py` file is stored. Then, use the `python3` command to execute the file.
+
+## Example Program
+
