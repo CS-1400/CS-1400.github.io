@@ -29,6 +29,8 @@ The command line interface (**CLI**) allows users to interact with the computer'
 - **pwd**: Displays the current directory path.
 - **cat *filename***: Displays the contents of the given filename.
 
+![](/assets/cli-file-system-navigation.png)
+
 ## Python Interpreter
 You can open the Python Interpreter directly from the command line, and enter any Python commands. You must have Python installed on your system to access it from the CLI. *Note: The Python version preinstalled on Macs is Python2, which is very different from Python3.*
 - To open the interpreter:  type "**python3**"
