@@ -39,7 +39,3 @@ You can open the Python Interpreter directly from the command line, and enter an
 ![](/assets/cli-interpreter.png)
 
 *Note: The Python version preinstalled on Mac OSX is Python2, which is very different from Python3. Install [Python 3](https://www.python.org/downloads/mac-osx/) on your system before using the command-line interpreter.*
-
-## CLI program execution
-
-## CLI program arguments
