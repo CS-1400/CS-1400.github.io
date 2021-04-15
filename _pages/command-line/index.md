@@ -34,6 +34,8 @@ You can open the Python Interpreter directly from the command line, and enter an
 - To open the interpreter:  type "**python3**"
 - To close the interpreter: type "**quit()**"
 
+![](/assets/cli-interpreter.png)
+
 ## CLI program execution
 
 ## CLI program arguments
