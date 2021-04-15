@@ -19,7 +19,7 @@ has_toc: false
 The command line interface (**CLI**) allows users to interact with the computer's operating system and files using text and written commands. A graphical user interface (**GUI**) can serve the same purpose, but uses point-and-click graphics instead of text-based commands. 
 
 ## CLI Access
-- Windows: Press <*cmd*> <*r*>, then type "*cmd*" in the text box.
+- Windows: Press <*win*> <*r*>, then type "*cmd*" in the text box.
 - Mac: Press <*cmd*> <*space*>, then type "*terminal*" in the text box.
 
 ## File System Navigation
