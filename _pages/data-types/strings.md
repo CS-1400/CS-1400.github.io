@@ -2,6 +2,7 @@
 layout: default
 title: Strings
 parent: Data Types
+nav_order: 1
 ---
 # Strings
 {: .no_toc }
