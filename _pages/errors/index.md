@@ -3,6 +3,7 @@ layout: default
 title: Errors
 has_children: true
 has_toc: false
+nav_order: 5
 ---
 
 # Errors
