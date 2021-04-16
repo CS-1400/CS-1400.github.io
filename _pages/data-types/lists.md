@@ -2,6 +2,7 @@
 layout: default
 title: Lists
 parent: Data Types
+nav_order: 3
 ---
 # Lists
 {: .no_toc }
