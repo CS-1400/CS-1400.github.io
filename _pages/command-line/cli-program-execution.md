@@ -38,3 +38,27 @@ if __name__ == '__main__':
 ### Navigate to directory and execute:
 
 ![](/assets/cli-program-execution.png)
+
+## `addition-cli.py`
+The following program accepts two integer arguments from the command line, then displays the sum. It is saved in the `/Users/bianca/test` directory.
+
+{% highlight python %}
+import sys
+
+def main():
+    try:
+        number1 = int(sys.argv[1])
+        number2 = int(sys.argv[2])
+    except:
+        print('\nYou must enter two integer arguments. Ending Execution')
+        return
+    
+    print(f'\nThe sum is {number1 + number2}')
+
+if __name__ == '__main__':
+    main()
+{% endhighlight %}
+
+### Navigate to directory and execute:
+
+![](/assets/cli-program-execution-2.png)
