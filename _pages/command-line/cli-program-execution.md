@@ -25,7 +25,7 @@ def main():
     try:
         number1 = int(input('Enter 1st number: '))
         number2 = int(input('Enter 2nd number: '))
-    except:
+    except ValueError:
         print('\nYou must enter two integer arguments. Ending Execution')
         return
     
@@ -49,7 +49,7 @@ def main():
     try:
         number1 = int(sys.argv[1])
         number2 = int(sys.argv[2])
-    except:
+    except ValueError:
         print('\nYou must enter two integer arguments. Ending Execution')
         return
     
