@@ -18,7 +18,7 @@ parent: Command Line Interface
 You can easily execute your Python programs directly from the command line. First, navigate to the directory the `.py` file is stored. Then, use the `python3` command to execute the file.
 
 ## Example Program
-The following program is saved in `/Users/bianca/test/addition.py`:
+The following program is saved in `/Users/bianca/test/addition.py`. It prompts the user for two numbers using the `input()` function, then displays the sum:
 
 {% highlight python %}
 def main():
@@ -35,6 +35,6 @@ if __name__ == '__main__':
     main()
 {% endhighlight %}
 
-### Step 1: Navigate to directory
+### Navigate to directory and execute
 
-### Step 2: Execute the program
+
