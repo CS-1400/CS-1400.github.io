@@ -21,7 +21,6 @@ Variables store data only during the execution of the program, but "disapear" wh
 
 ## Instructional Videos
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QDYIMoA9EOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="373" height="210" src="https://www.youtube.com/embed/QDYIMoA9EOg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vu4QfAhWN7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="373" height="210" src="https://www.youtube.com/embed/vu4QfAhWN7E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
