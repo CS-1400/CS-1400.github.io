@@ -41,4 +41,6 @@ if __name__ == '__main__':
     main()
 {% endhighlight %}
 
+### Navigate to directory and execute:
 
+![](/assets/cli-argv.png)
