@@ -2,6 +2,7 @@
 layout: default
 title: CLI Program Execution
 parent: Command Line Interface
+nav_order: 1
 ---
 
 # CLI Program Execution
