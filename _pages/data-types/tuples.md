@@ -2,6 +2,7 @@
 layout: default
 title: Tuples
 parent: Data Types
+nav_order: 4
 ---
 # Tuples
 {: .no_toc }
