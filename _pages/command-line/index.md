@@ -25,7 +25,7 @@ The command line interface (**CLI**) allows users to interact with the computer'
 ## File System Navigation
 - **ls**: lists all files and subfolders in the current directory (In Windows, the command is **dir**).
 - **cd *directory_name***: Changes the current directory to the indicated directory name.
-- **cd ..**: Changes the working directory to the parent directory.
+- **cd .. **: Changes the working directory to the parent directory.
 - **pwd**: Displays the current directory path.
 - **cat *filename***: Displays the contents of the given filename.
 
