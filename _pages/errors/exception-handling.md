@@ -2,7 +2,6 @@
 layout: default
 title: Exception Handling
 parent: Errors
-nav_order: 5
 ---
 
 # Exception Handling
