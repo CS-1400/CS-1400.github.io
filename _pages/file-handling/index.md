@@ -28,7 +28,7 @@ In order to read or write file data, you must always do three things in order:
 Additionaly, your file stream can only go in one direction. This means that you cannot write to a file you open for reading, and vice versa. You specify how you are going to use the file when you open it by indicating the **file mode**:
 - "**r**" mode: Opens the file for **reading** only.
 - "**w**" mode: Opens the file for **writing** only.
-- "**a**" mode: Allows the programmer to **add** additional data to the end of a file.
+- "**a**" mode: Allows the programmer to **append** additional data to the end of a file.
 
 ## The `open()` Function
 
