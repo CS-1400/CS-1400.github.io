@@ -15,4 +15,9 @@ parent: Command Line Interface
 ---
 
 ## Description
-A 
+Programs can be written to accept command-line arguments when they are executed. This requires the use of the `sys.argv` list. The first item in this list (index 0) is always the name of the file being executed. Any additional items in this list are arguments supplied on the command line.
+
+## argv.py
+The following program prints items in the sys.argv list. It is save in the `/Users/bianca/test` directory:
+
+
