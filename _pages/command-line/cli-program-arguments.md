@@ -20,7 +20,7 @@ Programs can be written to accept command-line arguments when they are executed.
 - Any additional items in this list are arguments supplied on the command line.
 - The module `sys` must be imported to access the `sys.argv` list.
 
-## argv.py
+## `argv.py`
 The following program prints items in the sys.argv list. It is saved in the `/Users/bianca/test` directory.
 
 {% highlight python %}
