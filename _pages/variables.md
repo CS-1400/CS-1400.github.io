@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Variables
+nav_order: 3
 ---
 # Variables
 {: .no_toc }
