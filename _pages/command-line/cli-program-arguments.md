@@ -21,7 +21,7 @@ Programs can be written to accept command-line arguments when they are executed.
 - The module `sys` must be imported to access the `sys.argv` list.
 
 ## argv.py
-The following program prints items in the sys.argv list. It is save in the `/Users/bianca/test` directory.
+The following program prints items in the sys.argv list. It is saved in the `/Users/bianca/test` directory.
 
 {% highlight python %}
 import sys
@@ -44,3 +44,28 @@ if __name__ == '__main__':
 ### Navigate to directory and execute:
 
 ![](/assets/cli-argv.png)
+
+## `addition-cli.py`
+The following program accepts two integer arguments from the command line, then displays the sum. It is saved in the `/Users/bianca/test` directory.
+
+{% highlight python %}
+import sys
+
+def main():
+    try:
+        number1 = int(sys.argv[1])
+        number2 = int(sys.argv[2])
+    except ValueError:
+        print('\nYou must enter two integer arguments. Ending Execution')
+        return
+    
+    print(f'\nThe sum is {number1 + number2}')
+
+if __name__ == '__main__':
+    main()
+{% endhighlight %}
+
+### Navigate to directory and execute:
+
+![](/assets/cli-program-execution-2.png)
+
