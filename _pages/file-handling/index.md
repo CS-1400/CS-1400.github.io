@@ -16,7 +16,7 @@ has_toc: false
 ---
 
 ## Description
-Variables store data during the execution of the program, but "disapear" when the program ends. Data saved in files allow that data to persist beyond the execution of the program. Python provides methods for programmers to read, write, and modify file contents.
+Variables store data during the execution of the program, but "disapear" when the program ends. Data saved in files will persist beyond the execution of the program. Python provides methods for programmers to read, write, and modify file contents.
 - Python Docs: [Reading and Writing Files](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 
 ## Instructional Videos
