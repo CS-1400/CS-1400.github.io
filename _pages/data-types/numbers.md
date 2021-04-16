@@ -2,6 +2,7 @@
 layout: default
 title: Numbers
 parent: Data Types
+nav_order: 1
 ---
 
 # Numbers: int, float
