@@ -3,6 +3,7 @@ layout: default
 title: Data Types
 has_children: true
 has_toc: false
+nav_order: 1
 ---
 # Data Types
 {: .no_toc }
