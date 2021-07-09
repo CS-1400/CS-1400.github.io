@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Formatting
+nav_order: 4
 ---
 
 # Formatting

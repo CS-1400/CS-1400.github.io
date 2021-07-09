@@ -2,6 +2,7 @@
 layout: default
 title: Sets
 parent: Data Types
+nav_order: 5
 ---
 # Sets
 {: .no_toc }

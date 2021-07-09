@@ -2,6 +2,7 @@
 layout: default
 title: Dictionaries
 parent: Data Types
+nav_order: 6
 ---
 # Dictionaries
 {: .no_toc }
